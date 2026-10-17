@@ -1,0 +1,43 @@
+{
+  "id": "2026-10-23-fropie-vaka",
+  "tur": "reels",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-10-23T12:30:00+03:00",
+  "aciklama": "Fropie ile Trendyol'da satışları 3 katına çıkardık. 🚀\n\nSihirli bir formül yok: doğru başlık, ikna eden açıklama ve bütçeyi boşa harcamayan reklam yönetimi.\n\nSıradaki başarı hikâyesi sizin markanız olabilir.\n💬 Ücretsiz analiz için DM'e \"ANALİZ\" yazın.\n\n#trendyol #başarıhikayesi #eticaret #pazaryeri #trendyolsatıcı #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Başarı Hikâyesi",
+      "baslik": "Fropie'nin satışları *nasıl* 3'e katlandı?",
+      "sure": 3.5
+    },
+    {
+      "tip": "rakam",
+      "rakam": "3x",
+      "etiket": "Trendyol satış artışı",
+      "sure": 3
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Başlık ve açıklamalar *yeniden yazıldı*",
+      "metin": "Müşterinin aradığı kelimelerle.",
+      "sure": 3.5
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Reklam bütçesi *doğru ürünlere* yönlendirildi",
+      "sure": 3.5
+    },
+    {
+      "tip": "cta",
+      "baslik": "Sıradaki *sizin* markanız olsun",
+      "sure": 4
+    }
+  ],
+  "medya": [
+    "medya/2026-10-23-fropie-vaka/reels.mp4",
+    "medya/2026-10-23-fropie-vaka/kapak.jpg"
+  ]
+}
