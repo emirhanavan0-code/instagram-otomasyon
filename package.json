@@ -1,0 +1,6 @@
+{
+  "name": "instagram-otomasyon",
+  "private": true,
+  "scripts": { "uret": "node uret.js" },
+  "dependencies": { "playwright": "1.56.1" }
+}

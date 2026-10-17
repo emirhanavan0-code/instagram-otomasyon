@@ -1,0 +1,32 @@
+name: Instagram'da yayınla
+
+# Onaylanmış (main dalındaki) içerikleri zamanı gelince paylaşır.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+concurrency: yayinla
+
+permissions:
+  contents: write
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Zamanı gelenleri yayınla
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+        run: python yayinla.py
+      - name: Durumu kaydet
+        run: |
+          git config user.name "seovedijital-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add icerik
+          git diff --cached --quiet || (git commit -m "Yayın durumu güncellendi" && git push)

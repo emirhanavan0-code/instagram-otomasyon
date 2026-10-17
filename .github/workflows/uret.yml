@@ -1,0 +1,33 @@
+name: Görselleri yeniden üret
+
+# Onay PR'ında bir içerik dosyası düzenlenirse görsel/videoyu yeniden üretir.
+on:
+  pull_request:
+    paths: ["icerik/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  uret:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install && npx playwright install --with-deps chromium && sudo apt-get install -y ffmpeg
+      - name: Değişen içerikleri üret
+        run: |
+          dosyalar=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'icerik/*.json')
+          [ -z "$dosyalar" ] || node uret.js $dosyalar
+      - name: Kaydet
+        run: |
+          git config user.name "seovedijital-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add icerik medya
+          git diff --cached --quiet || (git commit -m "Görseller yeniden üretildi" && git push)

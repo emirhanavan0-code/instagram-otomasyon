@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fontlar.css">
+<style>
+  :root {
+    --bg: #05060C; --bg2: #0B0E1A; --ink: #F4F6FC; --muted: #A8AEBF;
+    --orange: #FF6A2B; --orange2: #FFA23D; --blue: #9AA6FF; --line: rgba(154,166,255,.14);
+    --grad: linear-gradient(100deg, var(--orange) 0%, var(--orange2) 100%);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); }
+  #sahne {
+    position: relative; overflow: hidden; color: var(--ink);
+    font-family: 'DM Sans', sans-serif; background: var(--bg);
+    display: flex; flex-direction: column; padding: 84px 84px 72px;
+  }
+  #sahne.post  { width: 1080px; height: 1350px; }
+  #sahne.reels { width: 1080px; height: 1920px; padding: 220px 90px 300px; }
+
+  /* Arka plan: ızgara + iki ışık */
+  .grid { position: absolute; inset: 0; background-image:
+      linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 90px 90px; mask-image: radial-gradient(ellipse at 70% 20%, #000 0%, transparent 70%); opacity: .55; }
+  .glow { position: absolute; border-radius: 50%; filter: blur(120px); opacity: .55; }
+  .glow.a { width: 720px; height: 720px; background: var(--orange); top: -320px; right: -260px; opacity: .35; }
+  .glow.b { width: 640px; height: 640px; background: #4B5BFF; bottom: -340px; left: -260px; opacity: .3; }
+
+  header, footer, main { position: relative; z-index: 2; }
+  header { display: flex; align-items: center; justify-content: space-between; }
+  .marka { display: flex; align-items: center; gap: 18px; font-family: 'Sora'; font-weight: 600; font-size: 30px; letter-spacing: -.5px; }
+  .marka img { width: 58px; height: 58px; }
+  .sayfa { font-family: 'Sora'; font-size: 26px; color: var(--muted); border: 1.5px solid var(--line); padding: 10px 22px; border-radius: 99px; }
+
+  main { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .ust { display: inline-flex; align-self: flex-start; align-items: center; gap: 12px; font-family: 'Sora'; font-weight: 600;
+    font-size: 26px; letter-spacing: 3px; text-transform: uppercase; color: var(--orange2);
+    background: rgba(255,106,43,.1); border: 1.5px solid rgba(255,106,43,.35); padding: 12px 24px; border-radius: 99px; margin-bottom: 44px; }
+  .ust::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--orange); }
+  h1 { font-family: 'Sora'; font-weight: 800; font-size: 96px; line-height: 1.04; letter-spacing: -3px; }
+  h2 { font-family: 'Sora'; font-weight: 800; font-size: 72px; line-height: 1.08; letter-spacing: -2px; }
+  em { font-style: normal; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .alt { font-size: 38px; line-height: 1.45; color: var(--muted); margin-top: 40px; max-width: 880px; }
+  .metin { font-size: 40px; line-height: 1.5; color: #D5D9E6; margin-top: 36px; }
+  .metin b { color: var(--ink); }
+
+  .no { font-family: 'Sora'; font-weight: 800; font-size: 200px; line-height: .9; letter-spacing: -8px;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; margin-bottom: 28px; }
+  .kart { background: linear-gradient(160deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border: 1.5px solid var(--line);
+    border-radius: 36px; padding: 56px; }
+  .liste { list-style: none; margin-top: 40px; display: grid; gap: 22px; }
+  .liste li { font-size: 38px; line-height: 1.35; padding-left: 64px; position: relative; color: #D5D9E6; }
+  .liste li::before { content: "→"; position: absolute; left: 0; color: var(--orange); font-family: 'Sora'; font-weight: 800; }
+
+  .rakam { font-family: 'Sora'; font-weight: 800; font-size: 260px; line-height: .9; letter-spacing: -10px;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .rakam-etiket { font-family: 'Sora'; font-weight: 600; font-size: 50px; margin-top: 20px; }
+
+  .cta-kutu { margin-top: 56px; background: var(--grad); color: #140700; border-radius: 32px; padding: 44px 52px; }
+  .cta-kutu .k1 { font-family: 'Sora'; font-weight: 800; font-size: 54px; letter-spacing: -1px; }
+  .cta-kutu .k2 { font-size: 34px; margin-top: 10px; font-weight: 500; }
+  .iletisim { display: flex; gap: 40px; margin-top: 44px; font-size: 32px; color: var(--muted); }
+  .iletisim span b { color: var(--ink); font-weight: 700; }
+
+  footer { display: flex; align-items: center; justify-content: space-between; font-size: 28px; color: var(--muted); }
+  .kaydir { font-family: 'Sora'; font-weight: 600; color: var(--ink); display: flex; align-items: center; gap: 14px; }
+  .kaydir i { font-style: normal; display: inline-grid; place-items: center; width: 60px; height: 60px; border-radius: 50%; background: var(--grad); color: #140700; font-size: 32px; }
+  .ilerleme { position: absolute; left: 90px; right: 90px; top: 150px; height: 6px; border-radius: 6px; background: rgba(255,255,255,.12); z-index: 3; overflow: hidden; }
+  .ilerleme div { height: 100%; background: var(--grad); width: 0; }
+
+  /* Reels sahne geçişleri: her öğe sırayla belirir */
+  .reels .anim { opacity: 0; transform: translateY(60px); animation: gir .7s cubic-bezier(.2,.8,.2,1) forwards; }
+  .reels h1, .reels h2 { font-size: 104px; }
+  .reels .metin, .reels .liste li { font-size: 46px; }
+  @keyframes gir { to { opacity: 1; transform: none; } }
+  @keyframes doldur { from { width: 0; } to { width: 100%; } }
+</style>
+</head>
+<body>
+<div id="sahne"></div>
+<script>
+const esc = s => String(s ?? "").replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+// *vurgu* → turuncu gradyan, **kalın** → beyaz kalın
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/\*(.+?)\*/g, "<em>$1</em>");
+
+const govde = {
+  kapak: s => `
+    ${s.ust ? `<div class="ust anim">${esc(s.ust)}</div>` : ""}
+    <h1 class="anim">${md(s.baslik)}</h1>
+    ${s.alt ? `<p class="alt anim">${md(s.alt)}</p>` : ""}`,
+  madde: s => `
+    <div class="no anim">${String(s.no).padStart(2, "0")}</div>
+    <h2 class="anim">${md(s.baslik)}</h2>
+    ${s.metin ? `<p class="metin anim">${md(s.metin)}</p>` : ""}
+    ${s.liste ? `<ul class="liste">${s.liste.map(l => `<li class="anim">${md(l)}</li>`).join("")}</ul>` : ""}`,
+  rakam: s => `
+    ${s.ust ? `<div class="ust anim">${esc(s.ust)}</div>` : ""}
+    <div class="rakam anim">${esc(s.rakam)}</div>
+    <div class="rakam-etiket anim">${md(s.etiket)}</div>
+    ${s.metin ? `<p class="metin anim">${md(s.metin)}</p>` : ""}`,
+  alinti: s => `
+    <div class="kart anim">
+      ${s.ust ? `<div class="ust">${esc(s.ust)}</div>` : ""}
+      <h2>${md(s.baslik)}</h2>
+      ${s.metin ? `<p class="metin">${md(s.metin)}</p>` : ""}
+    </div>`,
+  cta: s => `
+    <h2 class="anim">${md(s.baslik || "Markanızı *büyütmeye* hazır mısınız?")}</h2>
+    <div class="cta-kutu anim">
+      <div class="k1">${esc(s.eylem || "DM'e “ANALİZ” yazın")}</div>
+      <div class="k2">${esc(s.aciklama || "Ücretsiz SEO & pazaryeri analizinizi gönderelim.")}</div>
+    </div>
+    <div class="iletisim anim"><span>🌐 <b>seovedijital.com</b></span><span>📞 <b>0501 048 3732</b></span></div>`,
+};
+
+window.ciz = (slayt, { format = "post", sira = 1, toplam = 1, sure = 0 } = {}) => {
+  const el = document.getElementById("sahne");
+  el.className = format;
+  const sonMu = sira === toplam;
+  el.innerHTML = `
+    <div class="grid"></div><div class="glow a"></div><div class="glow b"></div>
+    ${format === "reels" && sure ? `<div class="ilerleme"><div style="animation: doldur ${sure}s linear forwards"></div></div>` : ""}
+    <header>
+      <div class="marka"><img src="logo.png" alt="">seovedijital</div>
+      ${toplam > 1 && format === "post" ? `<div class="sayfa">${sira} / ${toplam}</div>` : ""}
+    </header>
+    <main>${govde[slayt.tip](slayt)}</main>
+    <footer>
+      <span>@seovedijital</span>
+      ${format === "post" && toplam > 1 && !sonMu ? `<span class="kaydir">Kaydır <i>→</i></span>` : `<span>SEO · GEO · Pazaryeri</span>`}
+    </footer>`;
+  // Reels: öğeleri sırayla canlandır
+  el.querySelectorAll(".anim").forEach((a, i) => (a.style.animationDelay = `${0.15 + i * 0.25}s`));
+  return document.fonts.ready.then(() => Promise.all([...el.querySelectorAll("img")].map(i => i.decode().catch(() => {}))));
+};
+</script>
+</body>
+</html>
