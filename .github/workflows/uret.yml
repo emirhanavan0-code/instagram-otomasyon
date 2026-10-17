@@ -1,16 +1,22 @@
 name: Görselleri yeniden üret
 
-# Onay PR'ında bir içerik dosyası düzenlenirse görsel/videoyu yeniden üretir.
+# Onay PR'ında bir içerik dosyası elle düzenlenirse sadece o içeriğin görsel/videosunu yeniden üretir.
+# PR'ı açan Claude medyayı zaten ürettiği için ilk açılışta ve bot commit'lerinde çalışmaz.
 on:
   pull_request:
+    types: [synchronize]
     paths: ["icerik/**"]
+
+concurrency:
+  group: uret-${{ github.head_ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
   uret:
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.actor != 'github-actions[bot]' && github.event.pull_request.state == 'open'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -23,11 +29,11 @@ jobs:
       - run: npm install && npx playwright install --with-deps chromium && sudo apt-get install -y ffmpeg
       - name: Değişen içerikleri üret
         run: |
-          dosyalar=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'icerik/*.json')
+          dosyalar=$(git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.event.after }} -- 'icerik/*.json')
           [ -z "$dosyalar" ] || node uret.js $dosyalar
       - name: Kaydet
         run: |
           git config user.name "seovedijital-bot"
           git config user.email "bot@users.noreply.github.com"
           git add icerik medya
-          git diff --cached --quiet || (git commit -m "Görseller yeniden üretildi" && git push)
+          git diff --cached --quiet || (git commit -m "Görseller yeniden üretildi" && git push || echo "PR kapanmış, kayıt atlandı")
