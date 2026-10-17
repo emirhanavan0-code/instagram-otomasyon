@@ -1,0 +1,46 @@
+{
+  "id": "2026-10-19-trendyol-satis-yok",
+  "tur": "reels",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-10-19T12:30:00+03:00",
+  "aciklama": "Trendyol'da ürününüz var ama satış gelmiyor mu? 👀\n\nReklama para basmadan önce bu 3 noktayı kontrol edin. Çoğu zaman sorun ürünün kendisinde değil, nasıl sunulduğunda.\n\n📌 Kaydedin, mağazanıza bakarken açın.\n💬 Ücretsiz mağaza analizi için DM'e \"ANALİZ\" yazın.\n\n#trendyol #trendyolsatıcı #eticaret #pazaryeri #onlinesatış #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol Satıcıları",
+      "baslik": "Ürün var, *satış yok?*",
+      "alt": "Reklamdan önce bu 3'üne bakın.",
+      "sure": 3.5
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Başlık *aranan kelimeyle* başlıyor mu?",
+      "metin": "Müşteri ne yazıyorsa başlığınız onunla başlamalı.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "İlk görsel *tek bakışta* anlatıyor mu?",
+      "metin": "Listede ilk görülen şey görseldir. Sade zemin, net ürün.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Soru ve yorumlar *cevapsız* mı?",
+      "metin": "Cevapsız soru, kararsız müşteri demektir.",
+      "sure": 4
+    },
+    {
+      "tip": "cta",
+      "baslik": "Mağazanızı *ücretsiz* inceleyelim",
+      "sure": 4
+    }
+  ],
+  "medya": [
+    "medya/2026-10-19-trendyol-satis-yok/reels.mp4",
+    "medya/2026-10-19-trendyol-satis-yok/kapak.jpg"
+  ]
+}

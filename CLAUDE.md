@@ -36,9 +36,11 @@ sahibi PR'ı birleştirerek onaylar, GitHub Actions zamanı gelince Composio üz
   #ankaraseo #seovedijital gibi).
 
 ## Doğruluk kuralları (kesin)
-- **Uydurma istatistik, yüzde, müşteri adı veya sonuç yazma.** Kullanılabilecek bilinen
-  gerçekler: Fropie ile Trendyol'da satışlar 3 kat arttı; Desen Triko Yenimahalle ile SEO ve
-  pazaryeri iş birliği. Başka rakam gerekiyorsa kaynağını açıklamada belirt veya rakamsız yaz.
+- **Uydurma istatistik, yüzde veya sonuç yazma.** Rakam gerekiyorsa kaynağını açıklamada belirt
+  veya rakamsız yaz.
+- **Müşteri adı, müşteri vakası veya referans kullanma.** İçerikler tamamen ajansın kendi
+  uzmanlığını gösteren eğitici ve otorite içerikleri olsun (ipucu, hata, kontrol listesi,
+  kavram açıklaması, sektör yorumu).
 - Trendyol / Google / Instagram kuralları hakkında emin olmadığın iddiada bulunma.
 
 ## İçerik dosyası şeması
