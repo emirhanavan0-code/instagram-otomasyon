@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-20-kasim-indirim-kar",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-10-20T19:00:00+03:00",
+  "aciklama": "Kasım'da çok sattınız ama ay sonunda kâr kalmadı mı? 📉\n\nİndirim yaparken komisyon, kargo ve reklam maliyetini hesaba katmamak sık yapılan bir hata. Fiyatı düşürmeden önce bu 4 adıma bakın.\n\n📌 Kaydedin, fiyat belirlerken açın.\n💬 Ürün bazında kâr analizi için DM'e \"ANALİZ\" yazın.\n\n#trendyol #kasımindirimleri #eticaret #pazaryeri #trendyolsatıcı #fiyatstratejisi #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Kasım İndirimleri",
+      "baslik": "İndirim yaptınız, *kâr kaldı mı?*",
+      "alt": "Fiyat düşürmeden önce bu hesabı yapın."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Gerçek maliyetinizi *bilin*",
+      "metin": "Satış fiyatından önce **tüm giderleri** toplayın:",
+      "liste": [
+        "Ürün alış maliyeti",
+        "Pazaryeri komisyonu",
+        "Kargo ve paketleme",
+        "Reklam harcaması"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "İndirimi *kâr payından* yapın",
+      "metin": "İndirim oranını rakibe göre değil, **maliyetten sonra kalan paya** göre belirleyin."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Her ürüne *aynı indirimi* yapmayın",
+      "metin": "Çok satanlarda küçük bir indirim yetebilir. Stokta bekleyen ürünlerde **daha cesur** olun."
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Fiyatı *önceden şişirmeyin*",
+      "metin": "İndirimden önce fiyatı yükseltmek müşteri güvenini zedeler ve **yasal risk** taşır."
+    },
+    {
+      "tip": "cta",
+      "baslik": "Kârlı indirimi *planlayalım*",
+      "eylem": "DM'e “ANALİZ” yazın",
+      "aciklama": "Ürün bazında kâr ve indirim analizini birlikte çıkaralım."
+    }
+  ],
+  "medya": [
+    "medya/2026-10-20-kasim-indirim-kar/01.jpg",
+    "medya/2026-10-20-kasim-indirim-kar/02.jpg",
+    "medya/2026-10-20-kasim-indirim-kar/03.jpg",
+    "medya/2026-10-20-kasim-indirim-kar/04.jpg",
+    "medya/2026-10-20-kasim-indirim-kar/05.jpg",
+    "medya/2026-10-20-kasim-indirim-kar/06.jpg"
+  ]
+}

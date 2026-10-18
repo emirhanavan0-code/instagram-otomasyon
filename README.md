@@ -6,9 +6,9 @@ otomatik paylaşılır.
 ## Haftalık döngü
 | Ne zaman | Ne olur |
 |---|---|
-| Cuma | Performans raporu çıkar, Claude gelecek haftanın 4 içeriğini hazırlar ve **Pull Request** açar |
+| Cuma | Performans raporu çıkar, Claude gelecek haftanın 5 içeriğini hazırlar ve **Pull Request** açar |
 | Hafta sonu (sen) | PR'daki görselleri ve metinleri kontrol edersin. Beğendiysen **Merge** ile onaylarsın |
-| Pzt 12:30 Reels · Çar 19:00 Kaydırmalı · Cum 12:30 Reels · Paz 11:00 Görsel | Onaylı içerikler Instagram'da otomatik yayınlanır |
+| Pzt 12:30 Reels · Sal 19:00 Kaydırmalı · Per 12:30 Reels · Cum 12:30 Reels · Paz 11:00 Görsel | Onaylı içerikler Instagram'da otomatik yayınlanır |
 
 ## Onay nasıl verilir
 1. GitHub'da **Pull requests** sekmesini aç ve "Hafta ..." başlıklı PR'a gir.
@@ -19,7 +19,7 @@ otomatik paylaşılır.
 5. Hiçbirini istemiyorsan PR'ı **Close** et, hiçbir şey paylaşılmaz.
 
 ## Klasörler
-- `icerik/`: içerik planı (her gönderi bir dosya; durum: taslak → planlandi → yayinlandi)
+- `icerik/`: içerik planı (her gönderi bir dosya; durum: taslak → planlandi → yayinlandi; ertelenenler beklemede)
 - `medya/`: üretilen görseller ve Reels videoları
 - `marka/`: logo, fontlar ve tasarım şablonu
 - `raporlar/`: haftalık performans raporları
