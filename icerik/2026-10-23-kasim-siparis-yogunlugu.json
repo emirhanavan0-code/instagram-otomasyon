@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-23-kasim-siparis-yogunlugu",
+  "tur": "reels",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-10-23T12:30:00+03:00",
+  "aciklama": "Kasım'da siparişler arttı ama mağaza puanınız düşüyor mu? ⭐\n\nYoğun dönem sadece satış değil, operasyon sınavıdır. Bugün kazandığınız müşteriyi kötü bir deneyimle kaybetmeyin.\n\n📌 Kaydedin, ekibinizle paylaşın.\n💬 Ücretsiz mağaza analizi için DM'e \"ANALİZ\" yazın.\n\n#trendyol #trendyolsatıcı #kasımindirimleri #eticaret #müşterideneyimi #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Kasım Yoğunluğu",
+      "baslik": "Sipariş arttı, *puan düştü?*",
+      "alt": "Yoğun dönemde puanı korumanın 3 yolu.",
+      "sure": 3.5
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Kargoyu *zamanında* çıkarın",
+      "metin": "Geç kargo kötü yorum getirir. Gerekirse paketlemeye ek el alın.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Sorulara *aynı gün* cevap verin",
+      "metin": "Kararsız müşteri cevap bekler. Sık sorulara hazır cevap yazın.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Paketi *özenle* hazırlayın",
+      "metin": "Hasarlı ürün iade ve düşük puan demektir.",
+      "sure": 4
+    },
+    {
+      "tip": "cta",
+      "baslik": "Mağazanızı *ücretsiz* inceleyelim",
+      "aciklama": "Puan, yorum ve operasyonu birlikte inceleyelim.",
+      "sure": 4
+    }
+  ],
+  "medya": [
+    "medya/2026-10-23-kasim-siparis-yogunlugu/reels.mp4",
+    "medya/2026-10-23-kasim-siparis-yogunlugu/kapak.jpg"
+  ]
+}

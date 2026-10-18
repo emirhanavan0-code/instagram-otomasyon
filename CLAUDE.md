@@ -4,7 +4,8 @@ Bu depo @seovedijital Instagram hesabını ajans düzeninde yönetir: Claude her
 sahibi PR'ı birleştirerek onaylar, GitHub Actions zamanı gelince Composio üzerinden yayınlar.
 
 ## Akış
-1. `icerik/<id>.json` dosyası yazılır (`durum: "taslak"`).
+1. `icerik/<id>.json` dosyası yazılır (`durum: "taslak"`). Ertelenen içerikler `beklemede` durumunda
+   bekler; ileride tarihi güncellenip yeniden kullanılabilir.
 2. `node uret.js` görsel/video üretir → `medya/<id>/`, durum `planlandi` olur.
 3. İçerikler `hafta-YYYY-WW` dalında PR olarak açılır. **PR birleşmesi = onay.**
 4. `.github/workflows/yayinla.yml` 30 dakikada bir `yayinla.py` çalıştırır; `main`'deki
@@ -14,12 +15,15 @@ sahibi PR'ı birleştirerek onaylar, GitHub Actions zamanı gelince Composio üz
 ## Haftalık içerik görevi (her cuma, gelecek pazartesi–pazar için)
 1. `raporlar/` içindeki en yeni raporu ve önceki haftaların `icerik/` dosyalarını oku.
    Hangi tür/konu daha çok erişim, kaydetme ve paylaşım almış? Konuları tekrar etme.
-2. Gelecek hafta için 4 içerik yaz, yaklaşık iki günde bir (saatler Türkiye, `+03:00`):
+2. Gelecek hafta için 5 içerik yaz (saatler Türkiye, `+03:00`):
    - Pazartesi 12:30: `reels`, 4–6 sahne, toplam 15–22 sn
-   - Çarşamba 19:00: `carousel`, eğitici (5–7 slayt: kapak, maddeler, cta)
+   - Salı 19:00: `carousel`, eğitici (5–7 slayt: kapak, maddeler, cta)
+   - Perşembe 12:30: `reels`
    - Cuma 12:30: `reels`
    - Pazar 11:00: `gorsel` (tek slayt, `alinti` veya `rakam`) ya da vaka odaklı kısa carousel
    Rapor bir formatın açıkça daha iyi gittiğini gösterirse dağılımı ona göre kaydır.
+   Sahibi bir hafta için tema verdiyse (ör. "Trendyol Kasım indirimleri") 5 içeriğin hepsi o temada,
+   ama her biri farklı bir alt konuda olsun.
 3. `npm install` (gerekirse) sonra `node uret.js` ile medyaları üret ve görselleri kontrol et
    (taşan veya sığmayan yazı olmamalı).
 4. `hafta-YYYY-WW` dalına commit et, push et, PR aç. PR açıklamasında her içerik için

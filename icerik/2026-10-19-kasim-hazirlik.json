@@ -1,0 +1,46 @@
+{
+  "id": "2026-10-19-kasim-hazirlik",
+  "tur": "reels",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-10-19T12:30:00+03:00",
+  "aciklama": "Kasım indirimleri gelmeden mağazanız hazır mı? 🛒\n\nYoğun dönemde kazanan, en çok indirimi yapan değil, en iyi hazırlanan satıcı olur. Bu 3 hazırlığı şimdiden yapın.\n\n📌 Kaydedin, Kasım hazırlık listeniz olsun.\n💬 Ücretsiz mağaza analizi için DM'e \"ANALİZ\" yazın.\n\n#trendyol #trendyolsatıcı #kasımindirimleri #eticaret #pazaryeri #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol Satıcıları",
+      "baslik": "Kasım indirimlerine *hazır mısınız?*",
+      "alt": "Şimdiden yapılacak 3 şey.",
+      "sure": 3.5
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Stoğu *şimdiden* planlayın",
+      "metin": "Kampanyada stok biterse satış da durur. Çok satanlarınızı önceden belirleyin.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Kargo süresini *gerçekçi* yazın",
+      "metin": "Yoğun dönemde geç kargo kötü yorum getirir. Paketleme düzeninizi şimdi kurun.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Ürün sayfalarını *şimdi* düzeltin",
+      "metin": "Başlık, görsel ve açıklamayı trafik gelmeden güncelleyin.",
+      "sure": 4
+    },
+    {
+      "tip": "cta",
+      "baslik": "Kasım'a *birlikte* hazırlanalım",
+      "sure": 4
+    }
+  ],
+  "medya": [
+    "medya/2026-10-19-kasim-hazirlik/reels.mp4",
+    "medya/2026-10-19-kasim-hazirlik/kapak.jpg"
+  ]
+}
