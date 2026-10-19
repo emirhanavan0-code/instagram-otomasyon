@@ -1,42 +1,43 @@
 {
   "id": "2026-10-22-kasim-reklam",
   "tur": "reels",
-  "durum": "beklemede",
+  "durum": "planlandi",
   "yayin_zamani": "2026-10-22T12:30:00+03:00",
-  "aciklama": "Kasım indirimlerinde reklam bütçeniz ilk gün bitiyor mu? ⏰\n\nYoğun dönemde rekabet artar. Önemli olan çok harcamak değil, doğru zamanda doğru ürüne harcamak.\n\n📌 Kaydedin, kampanya öncesi tekrar bakın.\n💬 Reklam hesabınızı ücretsiz inceleyelim, DM'e \"ANALİZ\" yazın.\n\n#trendyol #trendyolreklam #kasımindirimleri #eticaret #reklamyönetimi #seovedijital",
+  "aciklama": "Kasım indirimlerinde reklam bütçeniz ilk gün bitiyor mu? ⏰\n\nYoğun dönemde rekabet artar. Önemli olan çok harcamak değil, doğru zamanda doğru ürüne harcamak.\n\n📌 Kaydedin, kampanya öncesi tekrar bakın.\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #trendyolreklam #kasımindirimleri #eticaret #reklamyönetimi #seovedijital",
   "slaytlar": [
     {
       "tip": "kapak",
-      "ust": "Trendyol Reklamları",
+      "ust": "Trendyol Reklam Yönetimi",
       "baslik": "Kasımda reklam *ne zaman* açılır?",
-      "alt": "Bütçeyi doğru zamana yayın.",
+      "alt": "Bütçeyi doğru zamana ve doğru ürüne yayın.",
       "sure": 3.5
     },
     {
       "tip": "madde",
       "no": 1,
       "baslik": "Kampanyadan *önce* görünün",
-      "metin": "İndirimden birkaç gün önce görünür olun, müşteri ürünü favorilerine eklesin.",
-      "sure": 4
+      "metin": "Müşteri ürünü indirimden önce görüp favorilerine eklesin.",
+      "sure": 4.5
     },
     {
       "tip": "madde",
       "no": 2,
-      "baslik": "Bütçe *erken bitmesin*",
-      "metin": "Günlük bütçeyi en yoğun saatlere yetecek şekilde ayarlayın.",
-      "sure": 4
+      "baslik": "Bütçeyi *saatlere* yayın",
+      "metin": "Günlük bütçe, en yoğun saatlerden önce tükenmesin.",
+      "sure": 4.5
     },
     {
       "tip": "madde",
       "no": 3,
-      "baslik": "Satmayana *bütçe yakmayın*",
-      "metin": "Tıklanıp satmayan ürünü durdurun, satanı büyütün.",
-      "sure": 4
+      "baslik": "Kazanan ürünü *büyütün*",
+      "metin": "Tıklanıp satmayan ürünü durdurun, satanı ölçekleyin.",
+      "sure": 4.5
     },
     {
       "tip": "cta",
-      "baslik": "Reklamınızı *birlikte* planlayalım",
-      "aciklama": "Kasım için reklam ve bütçe planınızı çıkaralım.",
+      "ust": "Reklam ve Kampanya Yönetimi",
+      "baslik": "Bütçenizi *verimli* kullanın",
+      "aciklama": "Trendyol reklamlarınızı veriye dayalı planlıyor ve yönetiyoruz.",
       "sure": 4
     }
   ],

@@ -35,8 +35,12 @@ sahibi PR'ı birleştirerek onaylar, GitHub Actions zamanı gelince Composio üz
   reklam ve kampanya yönetimi. Ankara merkezli, KOBİ ve e-ticaret satıcılarına hitap eder.
 - Ton: net, uzman, samimi. "Siz" diliyle. Somut ipucu ver, jargonu açıkla, abartılı vaat yok.
 - Her içerik tek bir fikir anlatsın. Kapak başlığı en fazla ~8 kelime, merak uyandırsın.
-- Çağrı: "DM'e “ANALİZ” yazın", web: seovedijital.com, tel: 0501 048 3732.
-- Açıklama: ilk satır kanca, 3–6 kısa satır, çağrı, 5–8 hashtag (#trendyol #seo #geo #eticaret
+- Çağrı: DM çağrısı ("DM'e ANALİZ yazın", "ücretsiz analiz için DM") **kullanılmaz**. Çağrı web sitesi
+  (seovedijital.com) ve telefon (0501 048 3732) üzerinden; cta slaytında `ust` hizmet adı, `aciklama` ajansın
+  ne yaptığını tek cümleyle söyler.
+- Görsel dil seovedijital.com ile aynı: koyu zemin, mavi-mor vurgu, numaralı hizmet kartları (`marka/sablon.html`).
+  Madde slaytlarına 2–4 kısa `liste` maddesi (≤ 22 karakter) eklemek kartı sitedeki gibi zenginleştirir.
+- Açıklama: ilk satır kanca, 3–6 kısa satır, "🔗 Detaylar: seovedijital.com" ve "📞 0501 048 3732", 5–8 hashtag (#trendyol #seo #geo #eticaret
   #ankaraseo #seovedijital gibi).
 
 ## Doğruluk kuralları (kesin)
@@ -60,7 +64,7 @@ sahibi PR'ı birleştirerek onaylar, GitHub Actions zamanı gelince Composio üz
     {"tip": "madde",  "no": 1, "baslik": "...", "metin": "**kalın** destekli", "liste": ["..."]},
     {"tip": "rakam",  "ust": "...", "rakam": "3x", "etiket": "...", "metin": "..."},
     {"tip": "alinti", "ust": "...", "baslik": "...", "metin": "..."},
-    {"tip": "cta",    "baslik": "...", "eylem": "DM'e “ANALİZ” yazın", "aciklama": "..."}
+    {"tip": "cta",    "ust": "Hizmet adı", "baslik": "...", "aciklama": "...", "eylem": "buton (varsayılan seovedijital.com)"}
   ]
 }
 ```

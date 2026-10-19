@@ -1,24 +1,24 @@
 {
   "id": "2026-10-20-kasim-indirim-kar",
   "tur": "carousel",
-  "durum": "beklemede",
+  "durum": "planlandi",
   "yayin_zamani": "2026-10-20T19:00:00+03:00",
-  "aciklama": "Kasım'da çok sattınız ama ay sonunda kâr kalmadı mı? 📉\n\nİndirim yaparken komisyon, kargo ve reklam maliyetini hesaba katmamak sık yapılan bir hata. Fiyatı düşürmeden önce bu 4 adıma bakın.\n\n📌 Kaydedin, fiyat belirlerken açın.\n💬 Ürün bazında kâr analizi için DM'e \"ANALİZ\" yazın.\n\n#trendyol #kasımindirimleri #eticaret #pazaryeri #trendyolsatıcı #fiyatstratejisi #seovedijital",
+  "aciklama": "Kasım'da çok sattınız ama ay sonunda kâr kalmadı mı? 📉\n\nİndirim kararını komisyon, kargo ve reklam maliyetini hesaba katmadan vermek sık yapılan bir hata. Fiyatı düşürmeden önce bu 4 adıma bakın.\n\n📌 Kaydedin, fiyat belirlerken açın.\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #kasımindirimleri #eticaret #pazaryeri #trendyolsatıcı #fiyatstratejisi #seovedijital",
   "slaytlar": [
     {
       "tip": "kapak",
-      "ust": "Kasım İndirimleri",
+      "ust": "Kasım İndirimleri · Fiyat Stratejisi",
       "baslik": "İndirim yaptınız, *kâr kaldı mı?*",
-      "alt": "Fiyat düşürmeden önce bu hesabı yapın."
+      "alt": "Fiyatı düşürmeden önce yapılması gereken 4 hesap."
     },
     {
       "tip": "madde",
       "no": 1,
-      "baslik": "Gerçek maliyetinizi *bilin*",
-      "metin": "Satış fiyatından önce **tüm giderleri** toplayın:",
+      "baslik": "Gerçek maliyeti *hesaplayın*",
+      "metin": "Satış fiyatı, **tüm giderler** düşüldükten sonra anlam kazanır.",
       "liste": [
-        "Ürün alış maliyeti",
-        "Pazaryeri komisyonu",
+        "Ürün maliyeti",
+        "Komisyon",
         "Kargo ve paketleme",
         "Reklam harcaması"
       ]
@@ -32,20 +32,24 @@
     {
       "tip": "madde",
       "no": 3,
-      "baslik": "Her ürüne *aynı indirimi* yapmayın",
-      "metin": "Çok satanlarda küçük bir indirim yetebilir. Stokta bekleyen ürünlerde **daha cesur** olun."
+      "baslik": "Ürünleri *gruplayın*",
+      "metin": "Her ürüne aynı indirim gerekmez.",
+      "liste": [
+        "Çok satanlar: kontrollü indirim",
+        "Stokta bekleyenler: daha cesur indirim"
+      ]
     },
     {
       "tip": "madde",
       "no": 4,
       "baslik": "Fiyatı *önceden şişirmeyin*",
-      "metin": "İndirimden önce fiyatı yükseltmek müşteri güvenini zedeler ve **yasal risk** taşır."
+      "metin": "İndirim öncesi fiyat artışı müşteri güvenini zedeler ve **yasal risk** taşır."
     },
     {
       "tip": "cta",
-      "baslik": "Kârlı indirimi *planlayalım*",
-      "eylem": "DM'e “ANALİZ” yazın",
-      "aciklama": "Ürün bazında kâr ve indirim analizini birlikte çıkaralım."
+      "ust": "Trendyol Satış Arttırma",
+      "baslik": "Kârlı büyümeyi *planlayalım*",
+      "aciklama": "Ürün bazında kârlılık, fiyat ve kampanya stratejisi."
     }
   ],
   "medya": [
