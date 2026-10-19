@@ -1,41 +1,55 @@
 {
   "id": "2026-10-19-kasim-hazirlik",
   "tur": "reels",
-  "durum": "beklemede",
+  "durum": "planlandi",
   "yayin_zamani": "2026-10-19T12:30:00+03:00",
-  "aciklama": "Kasım indirimleri gelmeden mağazanız hazır mı? 🛒\n\nYoğun dönemde kazanan, en çok indirimi yapan değil, en iyi hazırlanan satıcı olur. Bu 3 hazırlığı şimdiden yapın.\n\n📌 Kaydedin, Kasım hazırlık listeniz olsun.\n💬 Ücretsiz mağaza analizi için DM'e \"ANALİZ\" yazın.\n\n#trendyol #trendyolsatıcı #kasımindirimleri #eticaret #pazaryeri #seovedijital",
+  "aciklama": "Kasım indirimleri gelmeden mağazanız hazır mı? 🛒\n\nYoğun dönemde kazanan, en çok indirim yapan değil, en iyi hazırlanan satıcıdır. Stok, operasyon ve ürün sayfası hazırlığını şimdiden tamamlayın.\n\n📌 Kaydedin, Kasım hazırlık listeniz olsun.\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #trendyolsatıcı #kasımindirimleri #eticaret #pazaryeri #seovedijital",
   "slaytlar": [
     {
       "tip": "kapak",
-      "ust": "Trendyol Satıcıları",
+      "ust": "Trendyol · Kasım İndirimleri",
       "baslik": "Kasım indirimlerine *hazır mısınız?*",
-      "alt": "Şimdiden yapılacak 3 şey.",
+      "alt": "Yoğun dönemden önce kontrol edilmesi gereken 3 alan.",
       "sure": 3.5
     },
     {
       "tip": "madde",
       "no": 1,
-      "baslik": "Stoğu *şimdiden* planlayın",
-      "metin": "Kampanyada stok biterse satış da durur. Çok satanlarınızı önceden belirleyin.",
-      "sure": 4
+      "baslik": "Stok ve *tedarik planı*",
+      "metin": "Kampanyada biten ürün, kaçan satış demektir.",
+      "liste": [
+        "Çok satanlar",
+        "Tedarik süresi"
+      ],
+      "sure": 4.5
     },
     {
       "tip": "madde",
       "no": 2,
-      "baslik": "Kargo süresini *gerçekçi* yazın",
-      "metin": "Yoğun dönemde geç kargo kötü yorum getirir. Paketleme düzeninizi şimdi kurun.",
-      "sure": 4
+      "baslik": "Kargo ve *operasyon*",
+      "metin": "Yoğun dönemde gecikme, kötü yorum olarak geri döner.",
+      "liste": [
+        "Kargo süresi",
+        "Paketleme düzeni"
+      ],
+      "sure": 4.5
     },
     {
       "tip": "madde",
       "no": 3,
-      "baslik": "Ürün sayfalarını *şimdi* düzeltin",
-      "metin": "Başlık, görsel ve açıklamayı trafik gelmeden güncelleyin.",
-      "sure": 4
+      "baslik": "Ürün sayfası *optimizasyonu*",
+      "metin": "Trafik artmadan önce sayfalarınızı hazırlayın.",
+      "liste": [
+        "Başlık ve kelime",
+        "Görsel ve açıklama"
+      ],
+      "sure": 4.5
     },
     {
       "tip": "cta",
-      "baslik": "Kasım'a *birlikte* hazırlanalım",
+      "ust": "Trendyol Mağaza Yönetimi",
+      "baslik": "Kasım'ı *planlı* karşılayın",
+      "aciklama": "Mağaza analizi, reklam ve operasyonu tek ekipte yönetiyoruz.",
       "sure": 4
     }
   ],

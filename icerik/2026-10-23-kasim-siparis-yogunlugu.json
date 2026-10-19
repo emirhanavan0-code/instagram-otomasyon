@@ -1,42 +1,51 @@
 {
   "id": "2026-10-23-kasim-siparis-yogunlugu",
   "tur": "reels",
-  "durum": "beklemede",
+  "durum": "planlandi",
   "yayin_zamani": "2026-10-23T12:30:00+03:00",
-  "aciklama": "Kasım'da siparişler arttı ama mağaza puanınız düşüyor mu? ⭐\n\nYoğun dönem sadece satış değil, operasyon sınavıdır. Bugün kazandığınız müşteriyi kötü bir deneyimle kaybetmeyin.\n\n📌 Kaydedin, ekibinizle paylaşın.\n💬 Ücretsiz mağaza analizi için DM'e \"ANALİZ\" yazın.\n\n#trendyol #trendyolsatıcı #kasımindirimleri #eticaret #müşterideneyimi #seovedijital",
+  "aciklama": "Kasım'da siparişler arttı ama mağaza puanınız düşüyor mu? ⭐\n\nYoğun dönem sadece satış değil, operasyon sınavıdır. Bugün kazandığınız müşteriyi kötü bir deneyimle kaybetmeyin.\n\n📌 Kaydedin, ekibinizle paylaşın.\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #trendyolsatıcı #kasımindirimleri #eticaret #müşterideneyimi #seovedijital",
   "slaytlar": [
     {
       "tip": "kapak",
-      "ust": "Kasım Yoğunluğu",
+      "ust": "Kasım Yoğunluğu · Operasyon",
       "baslik": "Sipariş arttı, *puan düştü?*",
-      "alt": "Yoğun dönemde puanı korumanın 3 yolu.",
+      "alt": "Yoğun dönemde mağaza puanını korumanın 3 yolu.",
       "sure": 3.5
     },
     {
       "tip": "madde",
       "no": 1,
       "baslik": "Kargoyu *zamanında* çıkarın",
-      "metin": "Geç kargo kötü yorum getirir. Gerekirse paketlemeye ek el alın.",
-      "sure": 4
+      "metin": "Geç kargo, kötü yorum olarak geri döner.",
+      "liste": [
+        "Paketleme desteği",
+        "Günlük kargo planı"
+      ],
+      "sure": 4.5
     },
     {
       "tip": "madde",
       "no": 2,
-      "baslik": "Sorulara *aynı gün* cevap verin",
-      "metin": "Kararsız müşteri cevap bekler. Sık sorulara hazır cevap yazın.",
-      "sure": 4
+      "baslik": "Sorulara *aynı gün* dönün",
+      "metin": "Kararsız müşteri cevap bekler.",
+      "liste": [
+        "Hazır cevaplar",
+        "Günlük kontrol"
+      ],
+      "sure": 4.5
     },
     {
       "tip": "madde",
       "no": 3,
       "baslik": "Paketi *özenle* hazırlayın",
-      "metin": "Hasarlı ürün iade ve düşük puan demektir.",
-      "sure": 4
+      "metin": "Hasarlı ürün; iade, maliyet ve düşük puan demektir.",
+      "sure": 4.5
     },
     {
       "tip": "cta",
-      "baslik": "Mağazanızı *ücretsiz* inceleyelim",
-      "aciklama": "Puan, yorum ve operasyonu birlikte inceleyelim.",
+      "ust": "Trendyol Mağaza Yönetimi",
+      "baslik": "Mağazanızı *birlikte* yönetelim",
+      "aciklama": "Puan, yorum ve operasyon süreçlerinizi düzenli takip ediyoruz.",
       "sure": 4
     }
   ],
