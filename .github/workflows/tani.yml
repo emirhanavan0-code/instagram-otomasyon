@@ -1,0 +1,41 @@
+name: Instagram araç testi (tanı)
+
+# Sorun ararken Composio Instagram araçlarını elle çalıştırmak için.
+# komut: "araclar"  ya da  "calistir"   ·  slug ve argumanlar yalnızca calistir için.
+on:
+  workflow_dispatch:
+    inputs:
+      komut:
+        description: "araclar | calistir | test"
+        required: true
+        default: araclar
+      slug:
+        description: "Araç adı (calistir) ya da içerik id'si (test)"
+        required: false
+      argumanlar:
+        description: "JSON argümanlar (calistir)"
+        required: false
+        default: "{}"
+
+jobs:
+  tani:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Çalıştır
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          KOMUT: ${{ inputs.komut }}
+          SLUG: ${{ inputs.slug }}
+          ARG: ${{ inputs.argumanlar }}
+        run: |
+          case "$KOMUT" in
+            araclar) python ig.py araclar ;;
+            calistir) python ig.py calistir "$SLUG" "$ARG" ;;
+            test) python yayinla.py --test "$SLUG" ;;
+            *) echo "Bilinmeyen komut: $KOMUT"; exit 1 ;;
+          esac
