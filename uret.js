@@ -103,6 +103,8 @@ async function reelsUret(browser, icerik, cikti) {
   const browser = await chromium.launch();
   for (const dosya of dosyalar) {
     const icerik = JSON.parse(fs.readFileSync(path.join(ROOT, dosya)));
+    // Elle kurgulanmış reels (ozel/ klasöründe kaynağı var): medyası şablonla ezilmesin
+    if (icerik.ozel) { console.log(`↷ ${icerik.id}: özel kurgu (${icerik.ozel}), atlandı`); continue; }
     const cikti = path.join(ROOT, "medya", icerik.id);
     fs.mkdirSync(cikti, { recursive: true });
     const t0 = Date.now();

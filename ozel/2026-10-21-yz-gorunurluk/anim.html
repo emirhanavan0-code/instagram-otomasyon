@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Geist:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+html,body{margin:0;background:#000;}
+#st{position:relative;width:1080px;height:1920px;overflow:hidden;background:#04030c;font-family:Geist,sans-serif;color:#f4f4f6;}
+.bg{position:absolute;inset:-260px;background:
+  radial-gradient(800px 640px at 30% 34%,rgba(139,92,246,.42),transparent 70%),
+  radial-gradient(760px 620px at 76% 62%,rgba(58,99,255,.40),transparent 70%),
+  radial-gradient(640px 520px at 50% 96%,rgba(255,92,50,.22),transparent 70%),
+  radial-gradient(1300px 1000px at 50% 50%,#0b0b26,#04030c 75%);}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(160,140,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(160,140,255,.07) 1px,transparent 1px);background-size:90px 90px;-webkit-mask:radial-gradient(circle at 50% 50%,#000 20%,transparent 70%);mask:radial-gradient(circle at 50% 50%,#000 20%,transparent 70%);}
+.big{position:absolute;left:50%;top:50%;font-family:'Bricolage Grotesque';font-weight:600;font-size:330px;letter-spacing:-.05em;white-space:nowrap;color:rgba(160,140,255,.07);transform:translate(-50%,-50%);}
+/* sahne 0: sohbet */
+#chat{position:absolute;left:90px;right:90px;top:560px;opacity:0;}
+.msg{display:flex;margin-bottom:40px;}
+.msg.u{justify-content:flex-end;}
+.bub{max-width:780px;padding:34px 40px;border-radius:44px;font-size:46px;line-height:1.3;letter-spacing:-.01em;}
+.u .bub{background:linear-gradient(135deg,#3a63ff,#7b5cff);border-bottom-right-radius:14px;box-shadow:0 30px 80px rgba(58,99,255,.45);}
+.a .bub{background:rgba(20,20,36,.85);border:1px solid rgba(255,255,255,.12);border-bottom-left-radius:14px;width:780px;box-sizing:border-box;box-shadow:0 30px 80px rgba(0,0,0,.5);}
+.av{flex:none;width:96px;height:96px;margin-right:22px;border-radius:30px;display:grid;place-items:center;background:linear-gradient(135deg,#8b5cf6,#ff7a45);align-self:flex-end;}
+.av svg{width:54px;height:54px;color:#fff}
+.a .bub small{display:block;font-size:30px;color:#a6a9bd;margin-bottom:22px;}
+.row{display:flex;align-items:center;gap:22px;margin:18px 0;}
+.row i{font-style:normal;font-family:'Bricolage Grotesque';font-weight:600;font-size:40px;color:#a685ff;width:40px;}
+.row b{display:block;height:34px;border-radius:12px;background:linear-gradient(90deg,rgba(255,255,255,.28),rgba(255,255,255,.1));}
+.dots{display:inline-flex;gap:12px;padding:8px 0}
+.dots span{width:18px;height:18px;border-radius:50%;background:#a6a9bd;}
+#caretq{display:inline-block;width:4px;height:48px;background:#fff;vertical-align:-8px;margin-left:4px;}
+/* başlık */
+#title{position:absolute;left:0;right:0;top:250px;text-align:center;opacity:0;}
+#title .k{display:inline-flex;align-items:center;gap:16px;padding:16px 30px;border-radius:999px;background:rgba(255,61,46,.16);border:1px solid rgba(255,122,69,.5);color:#ff9a70;font-weight:600;font-size:32px;letter-spacing:.14em;text-transform:uppercase;}
+#title h1{margin:34px 0 0;font-family:'Bricolage Grotesque';font-weight:500;font-size:128px;line-height:.95;letter-spacing:-.055em;}
+#title h1 em{font-family:'Instrument Serif';font-style:italic;font-weight:400;letter-spacing:-.01em;background:linear-gradient(90deg,#b49cff,#ff7a45);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:10px;}
+.chips{display:flex;justify-content:center;gap:16px;margin-top:40px;}
+.chips span{padding:16px 28px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.05);font-size:34px;color:#d8d9e2;}
+.chips span::before{content:"✓";color:#36d69a;margin-right:12px;font-weight:600;}
+/* telefon */
+.cam{position:absolute;inset:0;perspective:2600px;}
+#phone{position:absolute;left:-36px;top:-256.5px;width:1152px;height:2433px;border-radius:150px;background:#0b0c12;box-shadow:0 0 0 4px #2a2d3a,0 0 0 9px #0d0e14,0 80px 200px rgba(0,0,0,.7),0 0 240px rgba(139,92,246,.45);transform-origin:50% 50%;will-change:transform,filter;opacity:0;}
+#scr{position:absolute;left:26px;top:26px;width:1100px;height:2381px;border-radius:124px;overflow:hidden;background:#060609;}
+#pg{position:absolute;left:0;top:0;width:1100px;}
+#fr{position:absolute;left:0;top:0;width:390px;border:0;transform-origin:0 0;background:#060609;}
+#glare{position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.14) 48%,transparent 60%);mix-blend-mode:screen;pointer-events:none;}
+.notch{position:absolute;left:50%;top:44px;width:300px;height:84px;margin-left:-150px;border-radius:50px;background:#000;}
+#tap{position:absolute;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:6px solid rgba(255,255,255,.95);background:rgba(255,255,255,.2);opacity:0;}
+#hl{position:absolute;border-radius:40px;border:5px solid #a685ff;box-shadow:0 0 0 10px rgba(166,133,255,.22),0 0 60px rgba(166,133,255,.5);opacity:0;}
+/* yazılar */
+.cap{position:absolute;left:0;right:0;text-align:center;opacity:0;}
+.cap span{display:inline-block;padding:26px 46px;border-radius:999px;background:rgba(8,8,20,.74);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.14);font-family:'Bricolage Grotesque';font-weight:500;font-size:58px;letter-spacing:-.025em;box-shadow:0 30px 80px rgba(0,0,0,.5);}
+em{font-family:'Instrument Serif';font-style:italic;font-weight:400;color:#ff7a45;letter-spacing:0;font-size:1.12em;}
+.step{position:absolute;left:70px;top:150px;display:flex;align-items:center;gap:28px;padding:22px 40px 22px 22px;border-radius:999px;background:rgba(8,8,20,.78);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.16);box-shadow:0 30px 80px rgba(0,0,0,.5);opacity:0;}
+.step b{display:grid;place-items:center;width:96px;height:96px;border-radius:50%;background:linear-gradient(135deg,#8b5cf6,#ff7a45);font-family:'Bricolage Grotesque';font-weight:600;font-size:52px;}
+.step div small{display:block;font-size:26px;letter-spacing:.2em;text-transform:uppercase;color:#a6a9bd;}
+.step div span{display:block;font-family:'Bricolage Grotesque';font-weight:500;font-size:54px;letter-spacing:-.025em;margin-top:2px;}
+#ornek{position:absolute;right:70px;top:176px;padding:14px 26px;border-radius:999px;background:rgba(255,184,77,.14);border:1px solid rgba(255,184,77,.5);color:#ffcf85;font-size:30px;font-weight:500;opacity:0;}
+/* kapanış */
+#end{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;}
+#ring{position:absolute;left:50%;top:41%;width:840px;height:840px;margin:-420px 0 0 -420px;border-radius:50%;background:conic-gradient(from 0deg,#8b5cf6,#3a63ff,#ff7a45,#ff3d2e,#8b5cf6);-webkit-mask:radial-gradient(circle,transparent 61%,#000 62%);mask:radial-gradient(circle,transparent 61%,#000 62%);opacity:.85;}
+#ringglow{position:absolute;left:50%;top:41%;width:1040px;height:1040px;margin:-520px 0 0 -520px;border-radius:50%;background:radial-gradient(circle,rgba(139,92,246,.4),transparent 62%);}
+.e-logo{width:140px;height:140px;margin-bottom:30px;position:relative;filter:drop-shadow(0 0 40px rgba(255,122,69,.55));}
+.e-t{position:relative;font-family:'Bricolage Grotesque';font-weight:500;font-size:116px;letter-spacing:-.05em;line-height:.98;text-align:center;}
+.e-t em{background:linear-gradient(90deg,#b49cff,#ff7a45);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:8px;}
+.e-s{position:relative;margin-top:34px;font-size:40px;color:#c9cbd6;}
+.e-u{position:relative;margin-top:110px;padding:30px 60px;border-radius:999px;background:#f6f4ef;color:#0b0c12;font-family:'Bricolage Grotesque';font-weight:600;font-size:54px;letter-spacing:-.02em;box-shadow:0 30px 90px rgba(139,92,246,.4);}
+.e-p{position:relative;margin-top:34px;font-size:40px;color:#c9cbd6;letter-spacing:.02em;}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;mix-blend-mode:screen;}
+.grain{position:absolute;inset:0;opacity:.07;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");}
+.vig{position:absolute;inset:0;background:radial-gradient(130% 90% at 50% 50%,transparent 55%,rgba(0,0,0,.55));pointer-events:none;}
+</style></head><body>
+<div id="st">
+  <div class="bg" id="bg"></div><div class="grid"></div>
+  <div class="big" id="big">Yapay zekâ</div>
+
+  <div id="chat">
+    <div class="msg u" id="mu"><div class="bub"><span id="qtxt"></span><span id="caretq"></span></div></div>
+    <div class="msg a" id="ma"><div class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z"/></svg></div>
+      <div class="bub"><small>Yapay zekâ</small>
+        <div class="dots" id="dots"><span></span><span></span><span></span></div>
+        <div id="list"><div class="row" id="r1"><i>1</i><b style="width:430px"></b></div><div class="row" id="r2"><i>2</i><b style="width:520px"></b></div><div class="row" id="r3"><i>3</i><b style="width:380px"></b></div></div>
+      </div></div>
+  </div>
+
+  <div id="title">
+    <span class="k">Ücretsiz araç</span>
+    <h1>Yapay Zekâ<br><em>Görünürlük</em> Testi</h1>
+    <div class="chips"><span>1 dakika</span><span>Kayıt yok</span></div>
+  </div>
+
+  <div class="cam" id="cam">
+    <div id="phone"><div id="scr">
+      <div id="pg"><iframe id="fr" src="sayfa.html" scrolling="no"></iframe><div id="hl"></div><div id="tap"></div></div>
+      <div id="glare"></div><div class="notch" id="notch"></div>
+    </div></div>
+  </div>
+
+  <div class="cap" id="c0" style="top:250px"><span>Müşteriniz artık <em>yapay zekâya</em> soruyor</span></div>
+  <div class="cap" id="c1" style="top:1500px"><span>Peki siz bu <em>listede</em> var mısınız?</span></div>
+  <div class="cap" id="c2" style="top:1530px"><span>seovedijital.com'da <em>ücretsiz</em></span></div>
+  <div class="cap" id="c3" style="top:1560px"><span>3 gerçek <em>müşteri sorusu</em> soruluyor</span></div>
+  <div class="cap" id="c4" style="top:1560px"><span>Hangi soruda <em>anıldınız?</em></span></div>
+  <div class="cap" id="c5" style="top:1560px"><span>Rakipleriniz <em>neden</em> öneriliyor?</span></div>
+  <div class="step" id="s1"><b>1</b><div><small>Adım 1</small><span>Bilgilerinizi girin</span></div></div>
+  <div class="step" id="s2"><b>2</b><div><small>Adım 2</small><span>Testi başlatın</span></div></div>
+  <div class="step" id="s3"><b>3</b><div><small>Adım 3</small><span>Sonucunuzu okuyun</span></div></div>
+  <div id="ornek">Örnek sonuç</div>
+
+  <div id="end">
+    <div id="ringglow"></div><div id="ring"></div>
+    <img class="e-logo" src="logo.png">
+    <div class="e-t">Yapay Zekâ<br><em>Görünürlük</em> Testi</div>
+    <div class="e-s">Ücretsiz · 1 dakika · Kayıt gerekmez</div>
+    <div class="e-u">seovedijital.com</div>
+    <div class="e-p">📞 0501 048 3732</div>
+  </div>
+  <div id="flash"></div>
+  <div class="vig"></div>
+  <div class="grain"></div>
+</div>
+<script>
+const K=1100/390, B=26, W=1152, H=2433, VH=2381/K;
+const $=id=>document.getElementById(id);
+const fr=$('fr'); fr.style.transform=`scale(${K})`;
+let D=null; // iframe document
+window.hazir=new Promise(ok=>{fr.addEventListener('load',()=>{D=fr.contentDocument;
+  const h=D.documentElement.scrollHeight; fr.style.height=Math.max(h,9000)+'px'; setTimeout(ok,1500);});});
+const P=o=>Object.assign({s:.6,tx:0,ty:0,rx:0,ry:0,rz:0,scroll:0},o);
+const FULL=1080/1100;
+function full(scroll){return {s:FULL,tx:0,ty:-960-(B-H/2)*FULL,rx:0,ry:0,rz:0,scroll};}
+function focus(sx,sy,s,scroll){const lx=B+sx*K-W/2, ly=B+(sy-scroll)*K-H/2;return {s,tx:-lx*s,ty:-ly*s,rx:0,ry:0,rz:0,scroll};}
+// sayfa koordinatları (css px, 390 genişlik): form 641+, marka 738, site 836, sektör 934, buton 1167; sonuç: skor 798, cevaplar 1625, kaynaklar 2204
+const KF=[
+ [0.0,  P({s:.42,tx:0,ty:2200,rx:40,ry:30,rz:-12})],
+ [3.6,  P({s:.42,tx:0,ty:2200,rx:40,ry:30,rz:-12})],
+ [4.9,  P({s:.5,tx:0,ty:420,rx:12,ry:-20,rz:-4})],
+ [5.6,  P({s:.53,tx:0,ty:400,rx:6,ry:-10,rz:-2})],
+ [6.2,  full(0)],
+ [7.0,  full(0)],
+ [7.7,  full(560)],
+ [8.0,  focus(195,790,1.18,560)],
+ [10.4, focus(195,850,1.2,560)],
+ [10.9, focus(195,1010,1.16,640)],
+ [11.6, focus(195,1150,1.24,640)],
+ [12.3, full(600)],
+ [15.0, full(620)],
+ [15.6, focus(195,950,1.22,690)],
+ [17.4, focus(195,955,1.26,690)],
+ [18.0, full(1480)],
+ [19.9, full(1500)],
+ [20.5, full(1990)],
+ [22.3, full(2010)],
+ [22.9, P({s:.3,tx:520,ty:950,rx:22,ry:50,rz:10,scroll:2010})],
+];
+const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const easeOut=t=>1-Math.pow(1-t,3);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+function cam(t){let i=0;while(i<KF.length-2&&t>KF[i+1][0])i++;
+  const [t0,a]=KF[i],[t1,b]=KF[i+1];const u=ease(cl((t-t0)/(t1-t0)));const o={};for(const k in a)o[k]=a[k]+(b[k]-a[k])*u;return o;}
+function fade(t,a,b,f=.3){return cl(Math.min((t-a)/f,(b-t)/f));}
+// sayfa durumu (sırayla ilerler)
+const MARKA='Örnek Diş Kliniği', SITE='markaniz.com', Q="Ankara'da en iyi diş klinikleri hangileri?";
+const done={};
+function once(k,f){if(!done[k]){done[k]=1;f();}}
+function sayfa(t){
+  if(!D)return;
+  const g=id=>D.getElementById(id);
+  const m=g('sd-aig-marka'), si=g('sd-aig-site');
+  if(m&&t<11){m.value=MARKA.slice(0,Math.floor(cl((t-8.15)/1.0)*MARKA.length));
+    si.value=SITE.slice(0,Math.floor(cl((t-9.3)/.7)*SITE.length));}
+  if(t>=10.15)once('sek',()=>{const s=g('sd-aig-sektor');s.value='dis-hekimi';s.dispatchEvent(new Event('change'));});
+  if(t>=11.45)once('tik',()=>g('sd-aig-basla').click());
+  if(t>=12.9)once('q0',()=>D.defaultView.__bekleyen[0]&&D.defaultView.__bekleyen[0]());
+  if(t>=13.75)once('q1',()=>D.defaultView.__bekleyen[1]&&D.defaultView.__bekleyen[1]());
+  if(t>=14.6)once('q2',()=>D.defaultView.__bekleyen[2]&&D.defaultView.__bekleyen[2]());
+  const orb=D.querySelector('.yz-orb'); if(orb)orb.style.transform=`rotate(${t*250}deg)`;
+  const orbIn=orb&&orb.querySelector('div'); if(orbIn)orbIn.style.transform=`rotate(${-t*250}deg)`;
+  const halka=g('sd-aig-halka');
+  if(halka){const v=23*easeOut(cl((t-15.7)/1.3)); halka.style.strokeDashoffset=314*(1-v/100);
+    const n=D.querySelector('.yz-score .yz-num'); if(n)n.textContent=Math.round(v);}
+}
+window.render=function(t){
+  sayfa(t);
+  const c=cam(t), p=cam(Math.max(0,t-1/30));
+  const v=Math.abs(c.s-p.s)*60+Math.abs(c.ty-p.ty)/40+Math.abs(c.tx-p.tx)/40+Math.abs(c.scroll-p.scroll)/22+Math.abs(c.ry-p.ry)/3;
+  const ph=$('phone');
+  ph.style.opacity=cl((t-3.6)/.25);
+  ph.style.transform=`translate3d(${c.tx}px,${c.ty}px,0) rotateX(${c.rx}deg) rotateY(${c.ry}deg) rotateZ(${c.rz}deg) scale(${c.s})`;
+  ph.style.filter=v>.6?`blur(${Math.min(10,(v-.6)*1.6)}px)`:'none';
+  $('pg').style.transform=`translateY(${-c.scroll*K}px)`;
+  const gl=((t*0.55)%1.6)-.3; $('glare').style.transform=`translateX(${gl*140}%)`; $('glare').style.opacity=c.s<.9?1:0; $('notch').style.opacity=cl((0.9-c.s)/.15);
+  $('big').style.transform=`translate(${-50-t*1.4}%,-50%)`; $('big').style.opacity=1-cl((t-6)/.5);
+  $('bg').style.transform=`scale(${1+t*0.012}) rotate(${t*0.8}deg)`;
+  // sohbet sahnesi
+  const ch=$('chat'); const co=fade(t,.15,3.55,.35); ch.style.opacity=co; ch.style.transform=`translateY(${(1-easeOut(cl(t/.6)))*80 - cl((t-3.2)/.4)*120}px) scale(${1-cl((t-3.2)/.4)*.08})`;
+  const qn=Math.floor(cl((t-.35)/1.0)*Q.length); $('qtxt').textContent=Q.slice(0,qn); $('caretq').style.opacity=(t<1.45&&Math.floor(t*4)%2==0)||(t>.35&&t<1.35)?1:0;
+  const ma=$('ma'); const au=easeOut(cl((t-1.5)/.35)); ma.style.opacity=au; ma.style.transform=`translateY(${(1-au)*40}px)`;
+  $('dots').style.display=t<2.05?'inline-flex':'none';
+  [...$('dots').children].forEach((d,i)=>d.style.opacity=.35+.65*Math.max(0,Math.sin(t*9-i*.9)));
+  $('list').style.display=t<2.05?'none':'block';
+  ['r1','r2','r3'].forEach((id,i)=>{const u=easeOut(cl((t-2.05-i*.12)/.3));$(id).style.opacity=u;$(id).style.transform=`translateX(${(1-u)*-30}px)`;});
+  // başlık
+  const ti=$('title'); const tu=fade(t,3.55,6.0,.35); ti.style.opacity=tu; ti.style.transform=`translateY(${(1-easeOut(cl((t-3.55)/.5)))*60 - cl((t-5.6)/.4)*80}px) scale(${1.06-.06*easeOut(cl((t-3.55)/.6))})`;
+  // dokunma ve vurgu
+  const btn=[35,1167,320,56];
+  const tap=$('tap'); tap.style.left=(btn[0]+btn[2]/2)*K+'px'; tap.style.top=(btn[1]+btn[3]/2)*K+'px';
+  const tp=cl((t-11.25)/.45); tap.style.opacity=tp>0&&tp<1?(1-tp):0; tap.style.transform=`scale(${.5+tp*1.1})`;
+  const hl=$('hl'); let r=null, ho=0;
+  if(t>8.0&&t<9.25){r=[35,738-2,320,58];ho=fade(t,8.0,9.25,.2);} else if(t>9.25&&t<10.05){r=[35,836-2,320,58];ho=fade(t,9.25,10.05,.2);} else if(t>10.05&&t<10.8){r=[35,934-2,320,58];ho=fade(t,10.05,10.8,.2);}
+  if(r){hl.style.left=(r[0]-4)*K+'px';hl.style.top=(r[1]-4)*K+'px';hl.style.width=(r[2]+8)*K+'px';hl.style.height=(r[3]+8)*K+'px';}
+  hl.style.opacity=ho;
+  // yazılar
+  [['c0',.2,1.6],['c1',2.3,3.5],['c2',6.3,7.6],['c3',12.4,15.0],['c4',18.0,19.95],['c5',20.5,22.4]].forEach(([id,a,b])=>{
+    const e=$(id),f=fade(t,a,b,.3);e.style.opacity=f;e.style.transform=`translateY(${(1-f)*30}px) scale(${.96+.04*f})`;});
+  [['s1',7.8,10.9],['s2',10.9,12.3],['s3',15.4,22.4]].forEach(([id,a,b])=>{
+    const e=$(id),f=fade(t,a,b,.3);e.style.opacity=f;e.style.transform=`translateX(${(1-f)*-60}px)`;});
+  $('ornek').style.opacity=fade(t,15.5,22.4,.3);
+  // kapanış
+  const eu=cl((t-22.85)/.6);
+  $('end').style.opacity=eu; $('end').style.transform=`scale(${1.12-.12*easeOut(eu)})`;
+  $('ring').style.transform=`rotate(${t*40}deg)`;
+  $('cam').style.opacity=1-cl((t-22.8)/.4);
+  $('flash').style.opacity=Math.max(0,.55-Math.abs(t-22.85)*2.2)+Math.max(0,.3-Math.abs(t-3.55)*1.6)+Math.max(0,.18-Math.abs(t-14.65)*1.4);
+  $('st').style.filter=`brightness(${t<.3?t/.3:1})`;
+};
+</script></body></html>
