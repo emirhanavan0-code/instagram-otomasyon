@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Geist:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+html,body{margin:0;background:#000;}
+#st{position:relative;width:1080px;height:1920px;overflow:hidden;background:#02040e;font-family:Geist,sans-serif;color:#f4f4f6;}
+.bg{position:absolute;inset:-200px;background:
+  radial-gradient(900px 700px at 50% 42%,rgba(46,84,255,.55),transparent 70%),
+  radial-gradient(700px 500px at 20% 90%,rgba(255,92,50,.18),transparent 70%),
+  radial-gradient(1200px 900px at 50% 50%,#071338,#02040e 75%);}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(120,150,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(120,150,255,.06) 1px,transparent 1px);background-size:90px 90px;mask:radial-gradient(circle at 50% 50%,#000 20%,transparent 70%);-webkit-mask:radial-gradient(circle at 50% 50%,#000 20%,transparent 70%);}
+.big{position:absolute;left:50%;top:50%;font-family:'Bricolage Grotesque';font-weight:600;font-size:300px;letter-spacing:-.05em;white-space:nowrap;color:rgba(120,150,255,.07);transform:translate(-50%,-50%);}
+.cam{position:absolute;inset:0;perspective:2600px;}
+#phone{position:absolute;left:-36px;top:-256.5px;width:1152px;height:2433px;border-radius:150px;background:#0b0c12;box-shadow:0 0 0 4px #2a2d3a,0 0 0 9px #0d0e14,0 80px 200px rgba(0,0,0,.7),0 0 220px rgba(58,99,255,.45);transform-origin:50% 50%;will-change:transform,filter;}
+#scr{position:absolute;left:26px;top:26px;width:1100px;height:2381px;border-radius:124px;overflow:hidden;background:#060609;}
+#pg{position:absolute;left:0;top:0;width:1100px;}
+#pg img.site{display:block;width:1100px;}
+.ov{position:absolute;opacity:0;}
+#glare{position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.16) 48%,transparent 60%);mix-blend-mode:screen;pointer-events:none;}
+.notch{position:absolute;left:50%;top:44px;width:300px;height:84px;margin-left:-150px;border-radius:50px;background:#000;}
+#tap{position:absolute;width:140px;height:140px;margin:-70px 0 0 -70px;border-radius:50%;border:6px solid rgba(255,255,255,.9);background:rgba(255,255,255,.18);opacity:0;}
+#caret{position:absolute;width:5px;background:#ff7a45;opacity:0;}
+#pdf{position:absolute;left:50%;top:50%;width:794px;height:1123px;margin:-561px 0 0 -397px;border-radius:26px;overflow:hidden;box-shadow:0 60px 160px rgba(0,0,0,.75),0 0 0 2px rgba(255,255,255,.08),0 0 160px rgba(255,122,69,.35);opacity:0;transform-origin:50% 50%;}
+#pdf img{width:100%;display:block;}
+.cap{position:absolute;left:0;right:0;text-align:center;opacity:0;}
+.cap span{display:inline-block;padding:26px 46px;border-radius:999px;background:rgba(8,10,20,.72);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.14);font-family:'Bricolage Grotesque';font-weight:500;font-size:60px;letter-spacing:-.025em;box-shadow:0 30px 80px rgba(0,0,0,.5);}
+em{font-family:'Instrument Serif';font-style:italic;font-weight:400;color:#ff7a45;letter-spacing:0;font-size:1.12em;}
+#end{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;}
+#ring{position:absolute;left:50%;top:44%;width:820px;height:820px;margin:-410px 0 0 -410px;border-radius:50%;background:conic-gradient(from 0deg,#ff3d2e,#ff7a45,#3a63ff,#8b5cf6,#ff3d2e);-webkit-mask:radial-gradient(circle,transparent 61%,#000 62%);mask:radial-gradient(circle,transparent 61%,#000 62%);filter:blur(1px) saturate(1.1);opacity:.85;}
+#ringglow{position:absolute;left:50%;top:44%;width:1000px;height:1000px;margin:-500px 0 0 -500px;border-radius:50%;background:radial-gradient(circle,rgba(58,99,255,.35),transparent 62%);}
+.e-logo{width:150px;height:150px;margin-bottom:34px;position:relative;filter:drop-shadow(0 0 40px rgba(255,122,69,.55));}
+.e-t{position:relative;font-family:'Bricolage Grotesque';font-weight:500;font-size:170px;letter-spacing:-.05em;line-height:1;}
+.e-t em{font-size:1.1em;}
+.e-s{position:relative;margin-top:30px;font-size:42px;color:#c9cbd6;}
+.e-u{position:relative;margin-top:120px;padding:30px 56px;border-radius:999px;background:#f6f4ef;color:#0b0c12;font-family:'Bricolage Grotesque';font-weight:600;font-size:52px;letter-spacing:-.02em;box-shadow:0 30px 90px rgba(255,122,69,.35);}
+.e-p{position:relative;margin-top:36px;font-size:36px;color:#9ea2b5;}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;mix-blend-mode:screen;}
+.grain{position:absolute;inset:0;opacity:.07;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");}
+</style></head><body>
+<div id="st">
+  <div class="bg" id="bg"></div><div class="grid"></div>
+  <div class="big" id="big">SeoveBülten</div>
+  <div class="cam" id="cam">
+    <div id="phone"><div id="scr">
+      <div id="pg">
+        <img class="site" src="site-full.png">
+        <img class="ov" id="fbos" src="form-bos.png">
+        <div class="ov" id="fdoluw" style="overflow:hidden"><img id="fdolu" src="form-dolu.png"></div>
+        <img class="ov" id="fok" src="form-ok.png">
+        <div id="caret"></div>
+        <div id="tap"></div>
+      </div>
+      <div id="glare"></div><div class="notch" id="notch"></div>
+    </div></div>
+    <div id="pdf"><img src="pdf-kapak.png"></div>
+  </div>
+  <div class="cap" id="c1" style="top:150px"><span>Yeni: Seove<em>Bülten</em></span></div>
+  <div class="cap" id="c2" style="top:1470px"><span>Ayda 2 sayı, <em>3 dakikada</em> okunur</span></div>
+  <div class="cap" id="c3" style="top:1470px"><span>E-postanızı <em>bırakın</em></span></div>
+  <div class="cap" id="c4" style="top:1470px"><span>Her sayıda <em>ücretsiz</em> kit</span></div>
+  <div class="cap" id="c5" style="top:150px"><span>Hediye: <em>26 maddelik</em> liste</span></div>
+  <div id="end">
+    <div id="ringglow"></div><div id="ring"></div>
+    <img class="e-logo" src="logo.png">
+    <div class="e-t">Seove<em>Bülten</em></div>
+    <div class="e-s">Trendyol · Google · Yapay zekâ</div>
+    <div class="e-u">seovedijital.com/seovebulten</div>
+    <div class="e-p">Ücretsiz abone olun, listeyi hemen indirin</div>
+  </div>
+  <div id="flash"></div>
+  <div class="grain"></div>
+</div>
+<script>
+const R=window.RECTS; // site css px rects
+const K=1100/390, B=26, W=1152, H=2433;
+const $=id=>document.getElementById(id);
+// overlay placement (site css → screen px)
+function place(el,r){el.style.left=r[0]*K+'px';el.style.top=r[1]*K+'px';el.style.width=r[2]*K+'px';}
+place($('fbos'),R.form);place($('fok'),R.ok);
+const fw=$('fdoluw');fw.style.left=R.form[0]*K+'px';fw.style.top=R.form[1]*K+'px';fw.style.height=R.form[3]*K+'px';
+$('fdolu').style.width=R.form[2]*K+'px';
+const inp=R.input, btn=R.btn;
+const caret=$('caret');caret.style.top=(inp[1]+3)*K+'px';caret.style.height=(inp[3]-6)*K+'px';
+const tap=$('tap');tap.style.left=(btn[0]+btn[2]/2)*K+'px';tap.style.top=(btn[1]+btn[3]/2)*K+'px';
+
+const FULL=1080/1100;
+function full(scroll){return {s:FULL,tx:0,ty:-960-(B-H/2)*FULL,rx:0,ry:0,rz:0,scroll};}
+function focus(sx,sy,s,scroll){const lx=B+sx*K-W/2, ly=B+(sy-scroll)*K-H/2;return {s,tx:-lx*s,ty:-ly*s,rx:0,ry:0,rz:0,scroll};}
+const P=(o)=>Object.assign({s:.6,tx:0,ty:0,rx:0,ry:0,rz:0,scroll:0},o);
+const inC=[195, inp[1]+30];
+const KF=[
+ [0.0, P({s:.5,ty:1700,rx:30,ry:50,rz:-14})],
+ [1.5, P({s:.6,ty:70,rx:9,ry:-24,rz:-5})],
+ [2.7, P({s:.62,ty:40,rx:5,ry:-12,rz:-2})],
+ [3.5, full(0)],
+ [4.6, full(0)],
+ [5.3, focus(inC[0],inC[1],1.2,0)],
+ [7.2, focus(inC[0],inC[1]+8,1.27,0)],
+ [7.9, full(60)],
+ [8.3, full(60)],
+ [9.6, full(2470)],
+ [10.3, focus(110,2730,1.25,2470)],
+ [11.2, P({s:.5,tx:210,ty:120,rx:6,ry:24,rz:3,scroll:2470})],
+ [13.0, P({s:.5,tx:230,ty:100,rx:4,ry:18,rz:2,scroll:2470})],
+ [13.6, P({s:.3,tx:500,ty:900,rx:20,ry:50,rz:10,scroll:2470})],
+];
+const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const easeOut=t=>1-Math.pow(1-t,3);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+function cam(t){
+  let i=0;while(i<KF.length-2&&t>KF[i+1][0])i++;
+  const [t0,a]=KF[i],[t1,b]=KF[i+1];const u=ease(cl((t-t0)/(t1-t0)));
+  const o={};for(const k in a)o[k]=a[k]+(b[k]-a[k])*u;return o;
+}
+function fade(t,a,b,f=.35){return cl(Math.min((t-a)/f,(b-t)/f));}
+window.render=function(t){
+  const c=cam(t), p=cam(Math.max(0,t-1/30));
+  const v=Math.abs(c.s-p.s)*60+Math.abs(c.ty-p.ty)/40+Math.abs(c.tx-p.tx)/40+Math.abs(c.scroll-p.scroll)/22+Math.abs(c.ry-p.ry)/3;
+  const ph=$('phone');
+  ph.style.transform=`translate3d(${c.tx}px,${c.ty}px,0) rotateX(${c.rx}deg) rotateY(${c.ry}deg) rotateZ(${c.rz}deg) scale(${c.s})`;
+  ph.style.filter=v>.6?`blur(${Math.min(9,(v-.6)*1.6)}px)`:'none';
+  $('pg').style.transform=`translateY(${-c.scroll*K}px)`;
+  const g=((t*0.55)%1.6)-.3; $('glare').style.transform=`translateX(${g*140}%)`; $('glare').style.opacity=c.s<.9?1:0; $('notch').style.opacity=cl((0.9-c.s)/.15);
+  $('big').style.transform=`translate(${-50-t*1.2}%,-50%)`; $('big').style.opacity=t<3.6?1:Math.max(0,1-(t-3.6)*2);
+  $('bg').style.transform=`scale(${1+t*0.01}) rotate(${t*0.6}deg)`;
+  // form typing
+  const T0=5.35,T1=6.55, txt=16;
+  $('fbos').style.opacity=(t>5.0&&t<7.05)?1:0;
+  const fr=cl((t-T0)/(T1-T0)); const nchar=Math.floor(fr*txt);
+  fw.style.opacity=(t>T0&&t<7.05)?1:0;
+  const textX0=R.textX*K, charW=R.textW/txt*K;
+  fw.style.width=(nchar>0?textX0+nchar*charW:0)+'px';
+  caret.style.left=(R.form[0]+R.textX+nchar*R.textW/txt+1)*K+"px";
+  caret.style.opacity=(t>5.0&&t<6.85&&(Math.floor(t*3)%2==0||(t>T0&&t<T1)))?1:0;
+  const tp=cl((t-6.75)/.4); tap.style.opacity=tp>0&&tp<1?(1-tp):0; tap.style.transform=`scale(${.5+tp*1.1})`;
+  $('fok').style.opacity=cl((t-6.95)/.2)*(t<9?1:1);
+  if(t<6.9)$('fok').style.opacity=0;
+  // pdf fly out
+  const pu=easeOut(cl((t-10.6)/.9));
+  const pdf=$('pdf');
+  const pout=cl((t-13.15)/.45);
+  pdf.style.opacity=(t>10.6?Math.min(1,pu*2):0)*(1-pout);
+  pdf.style.transform=`translate3d(${120-330*pu - pout*700}px,${180-60*pu+pout*300}px,${-600+700*pu}px) rotateY(${40-58*pu}deg) rotateX(${6-4*pu}deg) rotateZ(${-6+3*pu+Math.sin(t*1.4)*1.2}deg) scale(${.35+.38*pu})`;
+  // captions
+  [['c1',.5,2.9],['c2',3.8,4.75],['c3',5.4,7.1],['c4',8.2,10.4],['c5',11.1,13.1]].forEach(([id,a,b])=>{
+    const e=$(id),f=fade(t,a,b,.3);e.style.opacity=f;e.style.transform=`translateY(${(1-f)*30}px) scale(${.96+.04*f})`;});
+  // end card
+  const eu=cl((t-13.55)/.6);
+  $('end').style.opacity=eu; $('end').style.transform=`scale(${1.12-.12*easeOut(eu)})`;
+  $('ring').style.transform=`rotate(${t*40}deg)`;
+  $('cam').style.opacity=1-cl((t-13.5)/.4);
+  $('flash').style.opacity=Math.max(0,.55-Math.abs(t-13.55)*2.2) + Math.max(0,.25-Math.abs(t-3.45)*1.6);
+  $('st').style.filter=`brightness(${t<.4?t/.4:1})`;
+};
+</script></body></html>
