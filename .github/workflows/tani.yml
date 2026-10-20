@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       komut:
-        description: "araclar | calistir | test | url"
+        description: "araclar | calistir | test | url | govde"
         required: true
         default: araclar
       slug:
@@ -38,5 +38,6 @@ jobs:
             calistir) python ig.py calistir "$SLUG" "$ARG" ;;
             test) python yayinla.py --test "$SLUG" ;;
             url) curl -sS -o /dev/null -D - -w "boyut=%{size_download} sure=%{time_total}s\n" "$SLUG" ;;
+            govde) curl -sS "$SLUG" | head -c 60000; echo ;;
             *) echo "Bilinmeyen komut: $KOMUT"; exit 1 ;;
           esac
