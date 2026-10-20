@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-20-seo-yapay-zeka",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-10-20T12:00:00+03:00",
+  "aciklama": "Müşterileriniz artık hem Google'da arıyor hem ChatGPT'ye soruyor. 🤖🔎\n\nİyi haber: İkisinde de görünmek için ayrı ayrı uğraşmanız gerekmiyor. Temeli aynı olan 4 kural var.\n\nMarkanızın yapay zekâ cevaplarında geçip geçmediğini ücretsiz YZ Görünürlük Testi ile görebilirsiniz: seovedijital.com/yapay-zeka-gorunurluk-testi\n\n📌 Kaydedin, sitenizi güncellerken açın.\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#seo #geo #yapayzeka #chatgpt #googleseo #dijitalpazarlama #ankaraseo #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "SEO · Yapay Zekâ Araması",
+      "baslik": "Google ve ChatGPT *aynı şeyi* ister",
+      "alt": "İki aramada birden görünmek için 4 ortak kural."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Soruyu *ilk cümlede* cevaplayın",
+      "metin": "Hem Google hem yapay zekâ, **net ve doğrudan** cevabı öne çıkarır.",
+      "liste": [
+        "Soru başlıkları",
+        "Kısa ilk paragraf",
+        "SSS bölümü"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Konuyu *derinlemesine* anlatın",
+      "metin": "Yüzeysel geçmeyin; konunun **alt sorularını da** aynı sayfada cevaplayın.",
+      "liste": [
+        "Rehber sayfaları",
+        "İç bağlantılar"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Adınız *başka yerlerde* geçsin",
+      "metin": "Haberlerde, rehberlerde ve yorumlarda anılmak markanıza **güven** kazandırır."
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Bilgileriniz *her yerde aynı*",
+      "metin": "Firma adı, adres ve telefon **sitede, haritada ve profillerde** tutarlı olsun.",
+      "liste": [
+        "Google İşletme Profili",
+        "Site iletişim sayfası"
+      ]
+    },
+    {
+      "tip": "cta",
+      "ust": "SEO ve GEO Hizmeti",
+      "baslik": "İki aramada da *görünür* olun",
+      "aciklama": "Sitenizi hem Google hem yapay zekâ aramaları için optimize ediyoruz."
+    }
+  ],
+  "medya": [
+    "medya/2026-10-20-seo-yapay-zeka/01.jpg",
+    "medya/2026-10-20-seo-yapay-zeka/02.jpg",
+    "medya/2026-10-20-seo-yapay-zeka/03.jpg",
+    "medya/2026-10-20-seo-yapay-zeka/04.jpg",
+    "medya/2026-10-20-seo-yapay-zeka/05.jpg",
+    "medya/2026-10-20-seo-yapay-zeka/06.jpg"
+  ]
+}
