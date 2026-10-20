@@ -23,13 +23,19 @@ def medya_url(yol, sha):
     return f"https://cdn.jsdelivr.net/gh/{REPO}@{sha}/{yol}"
 
 
-def hazir_bekle(creation_id, deneme=40):
+def hazir_bekle(creation_id, deneme=40, hata_siniri=8):
+    # Videolarda Instagram işleme sürerken geçici olarak ERROR dönebiliyor (20 Ekim reels'i birkaç dakika
+    # sonra FINISHED oldu). Bu yüzden ERROR art arda hata_siniri kez gelmeden vazgeçilmez.
+    hatalar = 0
     for _ in range(deneme):
         durum = ig.execute("INSTAGRAM_GET_POST_STATUS", {"creation_id": creation_id})
         kod = (durum.get("status_code") or durum.get("status") or "").upper()
         if "FINISHED" in kod:
             return
-        if "ERROR" in kod or "EXPIRED" in kod:
+        if "EXPIRED" in kod:
+            raise RuntimeError(f"Instagram taslağının süresi doldu: {durum}")
+        hatalar = hatalar + 1 if "ERROR" in kod else 0
+        if hatalar >= hata_siniri:
             raise RuntimeError(f"Instagram medyayı işleyemedi: {durum}")
         time.sleep(15)
     raise RuntimeError(f"{creation_id} zaman aşımı")
