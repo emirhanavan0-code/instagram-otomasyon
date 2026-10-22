@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-27-urun-gorseli",
+  "tur": "reels",
+  "muzik": "sinematik",
+  "yayin_zamani": "2026-10-27T19:00:00+03:00",
+  "aciklama": "Müşteri ürününüzü önce görür, sonra okur. 📸\n\nArama sonucunda tıklanıp tıklanmayacağınızı çoğu zaman ana görsel belirler.\n\nTelefonla bile doğru çekilmiş bir görsel seti fark yaratır.\n\n📌 Kaydedin, yeni ürün çekiminden önce bakın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #ürüngörseli #eticaret #trendyolsatıcı #ürünfotoğrafı #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Ürün Görseli",
+      "baslik": "Görsel kötüyse *kimse okumaz*",
+      "alt": "Satan bir görsel setinin 4 kuralı.",
+      "sure": 3.5
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Ana görsel *sade* olsun",
+      "metin": "Ürün net, ortada ve kalabalıksız. Arama sonucunda **küçük boyutta** da anlaşılmalı.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Ölçü ve *detay* gösterin",
+      "metin": "Boyut, doku, dikiş, etiket. Belirsizlik **iade** olarak geri döner.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Kullanım *anı* ekleyin",
+      "metin": "Ürün gerçek hayatta nasıl duruyor? Müşteri kendini onunla hayal etmeli.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Gün ışığında *çekin*",
+      "metin": "Pahalı ekipman şart değil. Pencere ışığı ve sabit bir zemin çoğu ürün için yeterli.",
+      "sure": 4
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Ürün Analizi",
+      "baslik": "Ürün sayfalarınızı *analiz edelim*",
+      "aciklama": "Görsel, başlık ve açıklamalarınız için öncelik listesi çıkarıyoruz.",
+      "sure": 4
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-27-urun-gorseli/reels.mp4",
+    "medya/2026-10-27-urun-gorseli/kapak.jpg"
+  ]
+}

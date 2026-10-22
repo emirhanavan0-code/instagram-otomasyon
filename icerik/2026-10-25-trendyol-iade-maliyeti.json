@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-25-trendyol-iade-maliyeti",
+  "tur": "reels",
+  "stil": "gece",
+  "muzik": "lofi",
+  "yayin_zamani": "2026-10-25T15:00:00+03:00",
+  "aciklama": "Bir iade size sadece satışı değil, daha fazlasını kaybettirir. 📦\n\nGidiş kargosu, dönüş kargosu, paketleme ve bazen tekrar satılamayan ürün. Hepsi ayrı bir gider.\n\nİade oranınızı bilmeden gerçek kârınızı bilemezsiniz.\n\n📌 Kaydedin, ay sonu hesabında kullanın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #iade #eticaret #trendyolsatıcı #kârhesabı #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Kâr Hesabı",
+      "baslik": "Bir iade size *kaça* mal oluyor?",
+      "alt": "Çoğu satıcı bu kalemleri hesaba katmıyor.",
+      "sure": 3.5
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "İki yönlü *kargo*",
+      "metin": "Ürün gider, geri gelir. **Dönüş kargosu** da çoğu zaman sizin cebinizden çıkar.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Paketleme ve *emek*",
+      "metin": "Kutu, poşet, etiket ve iadeyi kontrol etmek için harcanan zaman.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Satılamayan *ürün*",
+      "metin": "Açılmış, hasarlı ya da sezonu geçmiş ürün **tekrar aynı fiyata** satılmayabilir.",
+      "sure": 4
+    },
+    {
+      "tip": "alinti",
+      "ust": "Pratik kural",
+      "baslik": "Kârı *iade oranıyla* birlikte hesaplayın",
+      "metin": "Sipariş başı kârınızdan, iade oranınız kadar iade maliyetini düşün. Ay sonunda kalan **gerçek kârdır**.",
+      "sure": 4.5
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Satış Artırma",
+      "baslik": "Kârınızı eriten ürünleri *bulalım*",
+      "aciklama": "Mağazanızın iade ve kâr tablosunu birlikte çıkarıyoruz.",
+      "sure": 4
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-25-trendyol-iade-maliyeti/reels.mp4",
+    "medya/2026-10-25-trendyol-iade-maliyeti/kapak.jpg"
+  ]
+}

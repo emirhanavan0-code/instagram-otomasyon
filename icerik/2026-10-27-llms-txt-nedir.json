@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-27-llms-txt-nedir",
+  "tur": "carousel",
+  "stil": "gece",
+  "yayin_zamani": "2026-10-27T12:30:00+03:00",
+  "aciklama": "Yapay zekâya sitenizin haritasını verebilirsiniz: llms.txt 🤖\n\nllms.txt, sitenizin kökünde duran ve yapay zekâ araçlarına önemli sayfalarınızı özetleyen basit bir metin dosyası.\n\nHenüz bir standart değil, bir öneri. Ama hazırlaması kolay ve zararsız.\n\n📌 Kaydedin, siteniz için not alın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#geo #llmstxt #yapayzeka #seo #chatgpt #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "GEO · Teknik",
+      "baslik": "llms.txt *nedir?*",
+      "alt": "Yapay zekâya sitenizi anlatan küçük dosya."
+    },
+    {
+      "tip": "alinti",
+      "ust": "Tanım",
+      "baslik": "Yapay zekâ için *site özeti*",
+      "metin": "Sitenizin kökünde (**/llms.txt**) duran, markanızı ve en önemli sayfalarınızı kısa başlıklarla anlatan bir Markdown dosyası."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "robots.txt'ten *farkı*",
+      "metin": "robots.txt neyin taranacağını söyler. llms.txt ise **neyin önemli olduğunu** anlatır."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "İçine *ne yazılır?*",
+      "liste": [
+        "Marka tanımı",
+        "Hizmet sayfaları",
+        "Sık sorulanlar",
+        "İletişim"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Gerçekçi *beklenti*",
+      "metin": "Bir **öneri standardı**; her yapay zekâ aracının okuduğu garanti değil. Asıl iş yine net ve güvenilir içerik."
+    },
+    {
+      "tip": "cta",
+      "ust": "GEO · Yapay Zekâ Görünürlüğü",
+      "baslik": "Yapay zekâda *görünür* olun",
+      "aciklama": "llms.txt, schema ve içerik yapınızı yapay zekâ aramalarına hazırlıyoruz."
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-27-llms-txt-nedir/01.jpg",
+    "medya/2026-10-27-llms-txt-nedir/02.jpg",
+    "medya/2026-10-27-llms-txt-nedir/03.jpg",
+    "medya/2026-10-27-llms-txt-nedir/04.jpg",
+    "medya/2026-10-27-llms-txt-nedir/05.jpg",
+    "medya/2026-10-27-llms-txt-nedir/06.jpg"
+  ]
+}

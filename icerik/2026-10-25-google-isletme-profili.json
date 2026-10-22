@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-25-google-isletme-profili",
+  "tur": "carousel",
+  "stil": "altin",
+  "yayin_zamani": "2026-10-25T19:00:00+03:00",
+  "aciklama": "\"Yakınımdaki ...\" diye arayan müşteri sizi buluyor mu? 📍\n\nYerel aramalarda ilk izlenim çoğu zaman web siteniz değil, Google İşletme Profilinizdir.\n\n5 dakikada kontrol edebileceğiniz 5 nokta.\n\n📌 Kaydedin, profilinizi açıp tek tek bakın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#yerelseo #googleişletmeprofili #seo #ankaraseo #kobi #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Yerel SEO",
+      "baslik": "Haritada *görünmüyorsanız* yoksunuz",
+      "alt": "Google İşletme Profili için 5 dakikalık kontrol."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Doğru *kategori*",
+      "metin": "Ana kategori, insanların sizi aradığı kelimeyle örtüşmeli. Gerekirse **ek kategoriler** ekleyin."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Ad, adres, telefon *aynı*",
+      "metin": "Sitenizde, profilinizde ve diğer rehberlerde bilgiler **birebir aynı** yazılmalı."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Güncel *fotoğraflar*",
+      "metin": "Mekân, ekip ve işiniz. Müşteri gelmeden önce nereye geleceğini görmek ister.",
+      "liste": [
+        "Dış cephe",
+        "İç mekân",
+        "Ekip",
+        "Ürün / hizmet"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Yorumlara *cevap*",
+      "metin": "Olumlu ya da olumsuz, her yoruma kısa ve kibar bir cevap verin. Yeni müşteri bunu okur."
+    },
+    {
+      "tip": "madde",
+      "no": 5,
+      "baslik": "Düzenli *gönderi*",
+      "metin": "Kampanya, yeni hizmet, duyuru. Profilin **canlı** olduğunu gösterir."
+    },
+    {
+      "tip": "cta",
+      "ust": "Yerel SEO",
+      "baslik": "Mahallenizde *ilk sırada* çıkın",
+      "aciklama": "Profilinizi ve yerel görünürlüğünüzü birlikte düzenliyoruz."
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-25-google-isletme-profili/01.jpg",
+    "medya/2026-10-25-google-isletme-profili/02.jpg",
+    "medya/2026-10-25-google-isletme-profili/03.jpg",
+    "medya/2026-10-25-google-isletme-profili/04.jpg",
+    "medya/2026-10-25-google-isletme-profili/05.jpg",
+    "medya/2026-10-25-google-isletme-profili/06.jpg",
+    "medya/2026-10-25-google-isletme-profili/07.jpg"
+  ]
+}
