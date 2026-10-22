@@ -29,4 +29,4 @@ jobs:
           git config user.name "seovedijital-bot"
           git config user.email "bot@users.noreply.github.com"
           git add icerik
-          git diff --cached --quiet || (git commit -m "Yayın durumu güncellendi" && git push)
+          git diff --cached --quiet || (git commit -m "Yayın durumu güncellendi" && (git push || (git pull --rebase && git push)))
