@@ -12,6 +12,10 @@ sahibi PR'ı birleştirerek onaylar, GitHub Actions zamanı gelince Composio üz
    `planlandi` içerikleri `yayin_zamani` gelince yayınlar ve durumu `yayinlandi` yapar.
 5. `rapor.yml` her cuma sabahı `raporlar/analiz_*.json` üretir.
 
+## Günde 3 gönderi dönemi (23–31 Ekim 2026, sahibinin isteği)
+Her gün reels + carousel + kısa not (güncel kaynaklı haber). Konular blog yazıları, sözlük, ücretsiz araçlar ve
+seovedijital tanıtımı arasında döner. Saatler genelde 12:30 / 16:00 (not) / 19:00, reels ve carousel sırası gün gün değişir.
+
 ## Haftalık içerik görevi (her cuma, gelecek pazartesi–pazar için)
 1. `raporlar/` içindeki en yeni raporu ve önceki haftaların `icerik/` dosyalarını oku.
    Hangi tür/konu daha çok erişim, kaydetme ve paylaşım almış? Konuları tekrar etme.
@@ -68,6 +72,12 @@ sahibi PR'ı birleştirerek onaylar, GitHub Actions zamanı gelince Composio üz
   ]
 }
 ```
+Kısa not (güncel haber) tek görseldir: `{"tip": "not", "ust": "Google · AI Mode", "tarih": "15 Ekim 2026", "baslik": "...",
+"metin": "ne oldu", "anlami": "sizin için anlamı", "kaynak": "Kaynak adı · tarih"}`. Yalnızca açıp doğruladığın kaynaktan yaz,
+kaynağı açıklamada da belirt.
+Görünüm çeşitliliği: içerikte `"stil": "kor" | "zumrut" | "gece" | "altin"` (boş = mavi-mor) renkleri ve reels giriş hareketini değiştirir;
+reels'te `"muzik": "lofi" | "house" | "ambient" | "trap" | "funk" | "sinematik" | "pozitif"` parçası seçilir (`muzik/uret_muzik.py`).
+Art arda iki reels aynı stil/müziği kullanmasın.
 Reels sahnelerine `"sure": 3.5` (saniye) eklenebilir. `*metin*` turuncu vurgu, `**metin**` kalın.
 Uzun başlıklar taşar: kapak başlığı ≤ 45 karakter, madde başlığı ≤ 40 karakter civarı tut.
 

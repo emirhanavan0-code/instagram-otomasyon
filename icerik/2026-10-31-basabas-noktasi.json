@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-31-basabas-noktasi",
+  "tur": "carousel",
+  "stil": "kor",
+  "yayin_zamani": "2026-10-31T12:30:00+03:00",
+  "aciklama": "Sipariş başı kâr yetmez. Ay sonunda cebinizde ne kalıyor? 🧮\n\nBaşabaş noktası, sabit giderlerinizi karşılamak için ayda kaç sipariş gerektiğini söyler.\n\nKasım kampanyasına girmeden önce bu rakamı bilin.\n\n📌 Kaydedin, kendi rakamlarınızla hesaplayın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #başabaş #kârhesabı #eticaret #kasımindirimleri #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Kâr",
+      "baslik": "Ayda *kaç sipariş* lazım?",
+      "alt": "Başabaş noktasını 3 adımda bulun."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Sabit *giderler*",
+      "metin": "Siparişten bağımsız ödedikleriniz: kira, maaş, yazılım, muhasebe.",
+      "liste": [
+        "Kira",
+        "Maaş",
+        "Yazılım"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Sipariş başı *katkı*",
+      "metin": "Satış fiyatı − (ürün maliyeti + komisyon + kargo + paketleme + reklam payı)."
+    },
+    {
+      "tip": "alinti",
+      "ust": "Formül",
+      "baslik": "Sabit gider ÷ *katkı payı*",
+      "metin": "Çıkan sayı, ayda **zarar etmemek** için gereken sipariş adedidir. Bunun üstü kârdır."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "İndirimde *yeniden* hesaplayın",
+      "metin": "İndirim katkı payını düşürür, başabaş sipariş sayısı **yükselir**. Kampanya öncesi kontrol edin."
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Satış Artırma",
+      "baslik": "Mağazanızın rakamlarını *birlikte* kuralım",
+      "aciklama": "Kâr, başabaş ve kampanya senaryolarınızı tabloya döküyoruz."
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-31-basabas-noktasi/01.jpg",
+    "medya/2026-10-31-basabas-noktasi/02.jpg",
+    "medya/2026-10-31-basabas-noktasi/03.jpg",
+    "medya/2026-10-31-basabas-noktasi/04.jpg",
+    "medya/2026-10-31-basabas-noktasi/05.jpg",
+    "medya/2026-10-31-basabas-noktasi/06.jpg"
+  ]
+}

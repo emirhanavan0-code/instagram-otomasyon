@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-29-seovedijital-ne-yapar",
+  "tur": "reels",
+  "stil": "gece",
+  "muzik": "ambient",
+  "yayin_zamani": "2026-10-29T19:00:00+03:00",
+  "aciklama": "Müşteriniz sizi nerede arıyor? Google'da, yapay zekâda, Trendyol'da. 🔎\n\nSeovedijital olarak bu üç kanalı tek planda yönetiyoruz: SEO, GEO ve pazaryeri. Ankara'dan, KOBİ ve e-ticaret satıcıları için.\n\nHer ay ne yaptığımızı ve ne değiştiğini açıkça raporluyoruz.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#seo #geo #trendyol #ankaraseo #dijitalajans #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Seovedijital",
+      "baslik": "Müşteriniz sizi *nerede* arıyor?",
+      "alt": "Üç kanal, tek plan.",
+      "sure": 3.5
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Google'da *SEO*",
+      "metin": "Hizmetinizi arayan kişi sizi **ilk sayfada** bulsun.",
+      "liste": [
+        "Teknik SEO",
+        "İçerik",
+        "Yerel SEO"
+      ],
+      "sure": 4.2
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Yapay zekâda *GEO*",
+      "metin": "ChatGPT ve Gemini cevaplarında markanız **kaynak** olarak geçsin.",
+      "liste": [
+        "Schema",
+        "llms.txt",
+        "Marka sinyali"
+      ],
+      "sure": 4.2
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Trendyol'da *satış*",
+      "metin": "Ürün sayfası, reklam ve kampanya planıyla mağazanız **kârlı** büyüsün.",
+      "liste": [
+        "Ürün SEO",
+        "Reklam",
+        "Kampanya"
+      ],
+      "sure": 4.2
+    },
+    {
+      "tip": "alinti",
+      "ust": "Nasıl çalışıyoruz?",
+      "baslik": "Önce *ücretsiz* ön analiz",
+      "metin": "Mevcut durumunuzu çıkarıyor, neyin önce yapılacağını gösteriyoruz. Sonra her ay **şeffaf rapor**.",
+      "sure": 4.5
+    },
+    {
+      "tip": "cta",
+      "ust": "Ücretsiz Ön Analiz",
+      "baslik": "Nereden başlayacağınızı *birlikte* görelim",
+      "aciklama": "SEO, GEO ve Trendyol durumunuzu tek raporda çıkarıyoruz.",
+      "sure": 4
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-29-seovedijital-ne-yapar/reels.mp4",
+    "medya/2026-10-29-seovedijital-ne-yapar/kapak.jpg"
+  ]
+}

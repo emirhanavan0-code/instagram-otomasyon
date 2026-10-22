@@ -1,0 +1,62 @@
+{
+  "id": "2026-10-24-trendyol-varyant-hatalari",
+  "tur": "carousel",
+  "stil": "zumrut",
+  "yayin_zamani": "2026-10-24T12:30:00+03:00",
+  "aciklama": "Aynı ürünün 5 rengi için 5 ayrı sayfa mı açtınız? 🎨\n\nVaryantlar doğru kurulmazsa yorumlar bölünür, ürün aramada dağılır, müşteri istediği bedeni bulamaz.\n\nYayına almadan önce bu 4 hatayı kontrol edin.\n\n📌 Kaydedin, yeni ürün eklerken açıp bakın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #trendyolsatıcı #varyant #eticaret #pazaryeri #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Ürün Sayfası",
+      "baslik": "5 renk, 5 sayfa mı? *Yanlış.*",
+      "alt": "Varyant kurarken en sık yapılan 4 hata."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Her rengi *ayrı ürün* açmak",
+      "metin": "Aynı modelin renk ve bedenleri **tek ürün altında** toplanmalı. Böylece yorumlar ve satış geçmişi bölünmez.",
+      "liste": [
+        "Tek model kodu",
+        "Renk / beden seçeneği"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Tüm varyantlara *aynı görsel*",
+      "metin": "Kırmızıyı seçen müşteri kırmızıyı görmeli. Yanlış görsel, **iade** olarak geri döner."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Barkodları *karıştırmak*",
+      "metin": "Her varyantın kendi barkodu olmalı. Karışırsa yanlış ürün gönderilir, stok sayımı bozulur."
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Popüler bedende *stok bitmesi*",
+      "metin": "Sayfa açık ama en çok aranan beden yoksa satış kaçar. Stoğu **varyant bazında** takip edin.",
+      "liste": [
+        "Haftalık kontrol",
+        "Kritik beden uyarısı"
+      ]
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Ürün Analizi",
+      "baslik": "Ürün sayfalarınızı *birlikte* düzenleyelim",
+      "aciklama": "Varyant, görsel ve başlık yapınızı inceleyip öncelik listesi çıkarıyoruz."
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-24-trendyol-varyant-hatalari/01.jpg",
+    "medya/2026-10-24-trendyol-varyant-hatalari/02.jpg",
+    "medya/2026-10-24-trendyol-varyant-hatalari/03.jpg",
+    "medya/2026-10-24-trendyol-varyant-hatalari/04.jpg",
+    "medya/2026-10-24-trendyol-varyant-hatalari/05.jpg",
+    "medya/2026-10-24-trendyol-varyant-hatalari/06.jpg"
+  ]
+}

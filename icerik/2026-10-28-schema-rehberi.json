@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-28-schema-rehberi",
+  "tur": "carousel",
+  "stil": "zumrut",
+  "yayin_zamani": "2026-10-28T19:00:00+03:00",
+  "aciklama": "Sayfanızı makinelere kendi dillerinde anlatın. 🧩\n\nYapılandırılmış veri (schema), Google'ın ve yapay zekâ araçlarının sayfanızdaki bilgiyi doğru okumasına yardım eder.\n\nİşletmeler için en önemli 4 tür.\n\n📌 Kaydedin, sitenizi kontrol ederken kullanın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#seo #schema #yapılandırılmışveri #teknikseo #geo #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Teknik SEO",
+      "baslik": "Schema nedir, *neden* önemli?",
+      "alt": "İşletmeler için en önemli 4 tür."
+    },
+    {
+      "tip": "alinti",
+      "ust": "Tanım",
+      "baslik": "Sayfanın *etiketleri*",
+      "metin": "Sayfadaki adres, fiyat, yorum, SSS gibi bilgileri **standart bir dille** işaretleyen kod. Ziyaretçi görmez, arama motorları okur."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "LocalBusiness",
+      "metin": "Adres, telefon, çalışma saatleri. **Yerel işletmeler** için temel."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Product",
+      "metin": "Ürün adı, fiyat, stok durumu. **E-ticaret siteleri** için."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "FAQPage",
+      "metin": "Sık sorulan sorular ve cevapları. Sayfadaki bilginin **soru-cevap** olarak anlaşılmasına yardım eder."
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Article",
+      "metin": "Blog yazılarında yazar, tarih ve konu bilgisi."
+    },
+    {
+      "tip": "cta",
+      "ust": "Teknik Altyapı",
+      "baslik": "Teknik altyapınızı *kontrol edelim*",
+      "aciklama": "Schema, hız ve taranabilirlik durumunuzu inceleyip yol haritası çıkarıyoruz."
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-28-schema-rehberi/01.jpg",
+    "medya/2026-10-28-schema-rehberi/02.jpg",
+    "medya/2026-10-28-schema-rehberi/03.jpg",
+    "medya/2026-10-28-schema-rehberi/04.jpg",
+    "medya/2026-10-28-schema-rehberi/05.jpg",
+    "medya/2026-10-28-schema-rehberi/06.jpg",
+    "medya/2026-10-28-schema-rehberi/07.jpg"
+  ]
+}

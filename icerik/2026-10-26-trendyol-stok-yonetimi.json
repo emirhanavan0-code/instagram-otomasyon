@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-26-trendyol-stok-yonetimi",
+  "tur": "carousel",
+  "stil": "kor",
+  "yayin_zamani": "2026-10-26T19:00:00+03:00",
+  "aciklama": "En pahalı stok, bitmiş olan stoktur. 📦\n\nKasım'da tükenen ürün, en çok satacağı günlerde satış kaçırır.\n\n3 basit kavramla stoğunuzu planlayın.\n\n📌 Kaydedin, haftalık stok kontrolünde kullanın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #stokyönetimi #kasımindirimleri #eticaret #trendyolsatıcı #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Kasım Hazırlığı",
+      "baslik": "Stok bitti, *satış da* bitti",
+      "alt": "Kampanya öncesi 3 basit stok hesabı."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Stok *gün sayısı*",
+      "metin": "Elinizdeki stok ÷ günlük ortalama satış. Bu sayı **tedarik sürenizden** kısaysa risk var."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Yeniden *sipariş noktası*",
+      "metin": "Stok bu seviyeye inince siparişi verin. Tedarik süresi boyunca satılacak miktar + **güvenlik payı**."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Kampanya *çarpanı*",
+      "metin": "İndirim döneminde satış normalden yüksek olur. Geçen yılın aynı dönemine bakıp **stok hedefini** buna göre büyütün.",
+      "liste": [
+        "Geçen yıl verisi",
+        "Tedarikçi teyidi"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Fazla stok da *sorun*",
+      "metin": "Satılmayan ürün nakdi bağlar. Az satanları **kampanyayla** eritin, çok satanlara odaklanın."
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Mağaza Yönetimi",
+      "baslik": "Kasım planınızı *birlikte* kuralım",
+      "aciklama": "Stok, fiyat ve reklam planınızı rakamlarla hazırlıyoruz."
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-26-trendyol-stok-yonetimi/01.jpg",
+    "medya/2026-10-26-trendyol-stok-yonetimi/02.jpg",
+    "medya/2026-10-26-trendyol-stok-yonetimi/03.jpg",
+    "medya/2026-10-26-trendyol-stok-yonetimi/04.jpg",
+    "medya/2026-10-26-trendyol-stok-yonetimi/05.jpg",
+    "medya/2026-10-26-trendyol-stok-yonetimi/06.jpg"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-28-trendyolda-ne-satilir",
+  "tur": "reels",
+  "stil": "kor",
+  "muzik": "trap",
+  "yayin_zamani": "2026-10-28T12:30:00+03:00",
+  "aciklama": "\"Trendyol'da ne satsam?\" sorusunun cevabı tek bir ürün değil, bir yöntem. 🧭\n\nTalep, rekabet, kâr payı, kargo ve iade riski. Bir ürüne karar vermeden önce bu 4 soruyu sorun.\n\n📌 Kaydedin, yeni ürün kararından önce bakın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #trendyoldanesatılır #eticaret #yenisatıcı #pazaryeri #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Yeni Satıcı",
+      "baslik": "Ne satacağınızı *4 soruyla* seçin",
+      "alt": "Doğru ürün, işin yarısıdır.",
+      "sure": 3.5
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Aranıyor *mu?*",
+      "metin": "Ürün aramalarda ve rakip yorumlarında **gerçekten talep** görüyor mu?",
+      "sure": 3.8
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Kaç kişi *satıyor?*",
+      "metin": "Aynı ürünü onlarca satıcı satıyorsa fiyat savaşına girersiniz.",
+      "sure": 3.8
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Komisyon sonrası *kâr* kalıyor mu?",
+      "metin": "Komisyon, kargo, KDV ve reklam düşünce **elde kalan** rakama bakın.",
+      "sure": 4
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Kargo ve *iade* riski",
+      "metin": "Kırılgan, büyük ya da beden sorunu çok olan ürünler ek maliyet getirir.",
+      "sure": 3.8
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Satış Artırma",
+      "baslik": "Doğru kategoriyle *başlayın*",
+      "aciklama": "Ürün ve kategori seçiminizi rakamlarla birlikte değerlendiriyoruz.",
+      "sure": 4
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-28-trendyolda-ne-satilir/reels.mp4",
+    "medya/2026-10-28-trendyolda-ne-satilir/kapak.jpg"
+  ]
+}

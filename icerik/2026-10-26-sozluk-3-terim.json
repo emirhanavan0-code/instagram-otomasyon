@@ -1,0 +1,51 @@
+{
+  "id": "2026-10-26-sozluk-3-terim",
+  "tur": "reels",
+  "stil": "altin",
+  "muzik": "pozitif",
+  "yayin_zamani": "2026-10-26T12:30:00+03:00",
+  "aciklama": "SEO toplantısında duyduğunuz terimlere yabancı mı kaldınız? 📖\n\n30 saniyede 3 terim. Daha fazlası ücretsiz SEO, GEO ve Trendyol sözlüğümüzde, sade Türkçe ile.\n\n📌 Kaydedin, ekibinizle paylaşın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#seo #geo #sözlük #dijitalpazarlama #yapayzeka #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Sözlük · 30 Saniye",
+      "baslik": "3 terim, *30 saniye*",
+      "alt": "Toplantıda duyup sormaya çekindikleriniz.",
+      "sure": 3
+    },
+    {
+      "tip": "alinti",
+      "ust": "AI Overviews",
+      "baslik": "Google'ın *yapay zekâ özeti*",
+      "metin": "Bazı aramalarda sonuçların üstünde çıkan, yapay zekâyla yazılmış **özet cevap ve kaynaklar**.",
+      "sure": 4.5
+    },
+    {
+      "tip": "alinti",
+      "ust": "GEO",
+      "baslik": "Yapay zekâ cevaplarında *görünmek*",
+      "metin": "Markanızın ChatGPT, Gemini gibi araçların **cevaplarında kaynak** olarak geçmesi için yapılan çalışma.",
+      "sure": 4.5
+    },
+    {
+      "tip": "alinti",
+      "ust": "Schema",
+      "baslik": "Sayfanın *makine dili*",
+      "metin": "Sayfadaki bilgiyi (fiyat, adres, SSS) arama motorlarının **net anlayacağı** biçimde işaretleyen kod.",
+      "sure": 4.5
+    },
+    {
+      "tip": "cta",
+      "ust": "Ücretsiz Sözlük",
+      "baslik": "Gerisi *sözlükte*",
+      "aciklama": "SEO, GEO ve Trendyol terimleri sade Türkçe ile tek sayfada.",
+      "eylem": "seovedijital.com/sozluk",
+      "sure": 4
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-26-sozluk-3-terim/reels.mp4",
+    "medya/2026-10-26-sozluk-3-terim/kapak.jpg"
+  ]
+}

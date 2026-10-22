@@ -1,0 +1,63 @@
+{
+  "id": "2026-10-30-ucretsiz-araclar",
+  "tur": "carousel",
+  "stil": "altin",
+  "yayin_zamani": "2026-10-30T19:00:00+03:00",
+  "aciklama": "Sitemizde herkesin ücretsiz kullanabileceği araçlar ve kaynaklar var. 🧰\n\nYapay zekâ görünürlük testi, SEO sözlüğü ve e-ticaret bülteni. Kayıt olmadan deneyebilirsiniz.\n\n📌 Kaydedin, ihtiyacınız olduğunda açın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#ücretsizaraç #seo #geo #yapayzeka #eticaret #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Ücretsiz Kaynaklar",
+      "baslik": "Sitemizde *ücretsiz* neler var?",
+      "alt": "Kayıt gerektirmeyen araçlar ve rehberler."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Yapay Zekâ *Görünürlük Testi*",
+      "metin": "Markanızın yapay zekâ cevaplarında nasıl anlatıldığını **hızlıca** görün.",
+      "liste": [
+        "ChatGPT'de var mısınız?"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "SEO, GEO, Trendyol *Sözlüğü*",
+      "metin": "Terimler sade Türkçe ile: ne demek, **neden önemli**.",
+      "liste": [
+        "seovedijital.com/sozluk"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "SeoveBülten",
+      "metin": "E-ticaret ve SEO için **kontrol listeleri** ve kısa notlar e-postanıza gelsin.",
+      "liste": [
+        "Menü → SeoveBülten"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Düzenli yeni *rehberler*",
+      "metin": "Blogumuzda Trendyol, SEO ve GEO üzerine **uygulanabilir** rehberler."
+    },
+    {
+      "tip": "cta",
+      "ust": "Ücretsiz Ön Analiz",
+      "baslik": "Daha fazlası için *bize yazın*",
+      "aciklama": "Sitenizin ve mağazanızın durumunu ücretsiz çıkarıyoruz."
+    }
+  ],
+  "durum": "planlandi",
+  "medya": [
+    "medya/2026-10-30-ucretsiz-araclar/01.jpg",
+    "medya/2026-10-30-ucretsiz-araclar/02.jpg",
+    "medya/2026-10-30-ucretsiz-araclar/03.jpg",
+    "medya/2026-10-30-ucretsiz-araclar/04.jpg",
+    "medya/2026-10-30-ucretsiz-araclar/05.jpg",
+    "medya/2026-10-30-ucretsiz-araclar/06.jpg"
+  ]
+}

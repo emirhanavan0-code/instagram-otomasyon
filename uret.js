@@ -28,7 +28,7 @@ async function gorselUret(browser, icerik, cikti) {
   const page = await sayfaAc(browser, "post");
   const dosyalar = [];
   for (const [i, slayt] of icerik.slaytlar.entries()) {
-    await page.evaluate(([s, o]) => window.ciz(s, o), [slayt, { format: "post", sira: i + 1, toplam: icerik.slaytlar.length }]);
+    await page.evaluate(([s, o]) => window.ciz(s, o), [slayt, { format: "post", sira: i + 1, toplam: icerik.slaytlar.length, stil: icerik.stil }]);
     const dosya = path.join(cikti, `${String(i + 1).padStart(2, "0")}.jpg`);
     await page.locator("#sahne").screenshot({ path: dosya, type: "jpeg", quality: 92 });
     dosyalar.push(path.relative(ROOT, dosya));
@@ -37,11 +37,15 @@ async function gorselUret(browser, icerik, cikti) {
   return dosyalar;
 }
 
-function muzikGirdisi(sure) {
+// Her reels farklı parça: içerikte "muzik" varsa o, yoksa id'den türeyen sırayla biri
+const ozet = s => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+function muzikGirdisi(sure, icerik) {
   const klasor = path.join(ROOT, "muzik");
   const parcalar = fs.existsSync(klasor) ? fs.readdirSync(klasor).filter(f => /\.(mp3|m4a|wav)$/i.test(f)) : [];
   if (parcalar.length) {
-    const parca = parcalar[Math.floor(Math.random() * parcalar.length)];
+    parcalar.sort();
+    const istenen = icerik.muzik && parcalar.find(f => f.replace(/\.\w+$/, "") === icerik.muzik);
+    const parca = istenen || parcalar[ozet(icerik.id) % parcalar.length];
     return ["-stream_loop", "-1", "-i", path.join(klasor, parca)];
   }
   // Telifsiz yedek: yumuşak akor + hafif ritim, ffmpeg ile sentezlenir
@@ -61,8 +65,8 @@ async function reelsUret(browser, icerik, cikti) {
   const ffmpeg = spawn("ffmpeg", [
     "-y", "-loglevel", "error",
     "-f", "image2pipe", "-framerate", String(FPS), "-i", "-",
-    ...muzikGirdisi(toplamSure),
-    "-filter_complex", `[1:a]afade=t=in:d=1,afade=t=out:st=${toplamSure - 1.5}:d=1.5,volume=0.8[a]`,
+    ...muzikGirdisi(toplamSure, icerik),
+    "-filter_complex", `[1:a]loudnorm=I=-17:TP=-1.5,afade=t=in:d=1,afade=t=out:st=${toplamSure - 1.5}:d=1.5[a]`,
     "-map", "0:v", "-map", "[a]", "-t", String(toplamSure),
     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-profile:v", "high", "-preset", "medium", "-crf", "20",
     "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", video,
@@ -70,7 +74,7 @@ async function reelsUret(browser, icerik, cikti) {
   const bitti = new Promise((ok, hata) => ffmpeg.on("close", k => (k === 0 ? ok() : hata(new Error("ffmpeg " + k)))));
 
   for (const [i, sahne] of sahneler.entries()) {
-    await page.evaluate(([s, o]) => window.ciz(s, o), [sahne, { format: "reels", sira: i + 1, toplam: sahneler.length, sure: sahne.sure }]);
+    await page.evaluate(([s, o]) => window.ciz(s, o), [sahne, { format: "reels", sira: i + 1, toplam: sahneler.length, sure: sahne.sure, stil: icerik.stil }]);
     await page.evaluate(() => document.getAnimations().forEach(a => a.pause()));
     const kare = Math.round(sahne.sure * FPS);
     for (let f = 0; f < kare; f++) {
@@ -89,7 +93,7 @@ async function reelsUret(browser, icerik, cikti) {
   await bitti;
 
   // Kapak görseli: ilk sahnenin animasyon bitmiş hali
-  await page.evaluate(([s, o]) => window.ciz(s, o), [sahneler[0], { format: "reels", sira: 1, toplam: 1 }]);
+  await page.evaluate(([s, o]) => window.ciz(s, o), [sahneler[0], { format: "reels", sira: 1, toplam: 1, stil: icerik.stil }]);
   await page.evaluate(() => document.getAnimations().forEach(a => a.finish()));
   const kapak = path.join(cikti, "kapak.jpg");
   await page.locator("#sahne").screenshot({ path: kapak, type: "jpeg", quality: 92 });
