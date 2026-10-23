@@ -1,7 +1,7 @@
 {
   "id": "2026-10-20-kasim-indirim-kar",
   "tur": "carousel",
-  "durum": "hata",
+  "durum": "planlandi",
   "yayin_zamani": "2026-10-23T19:00:00+03:00",
   "aciklama": "Kasım'da çok sattınız ama ay sonunda kâr kalmadı mı? 📉\n\nİndirim kararını komisyon, kargo ve reklam maliyetini hesaba katmadan vermek sık yapılan bir hata. Fiyatı düşürmeden önce bu 4 adıma bakın.\n\n📌 Kaydedin, fiyat belirlerken açın.\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #kasımindirimleri #eticaret #pazaryeri #trendyolsatıcı #fiyatstratejisi #seovedijital",
   "slaytlar": [
@@ -60,6 +60,5 @@
     "medya/2026-10-20-kasim-indirim-kar/05.jpg",
     "medya/2026-10-20-kasim-indirim-kar/06.jpg"
   ],
-  "stil": "altin",
-  "hata": "INSTAGRAM_CREATE_MEDIA_CONTAINER başarısız: Failed to create container (status 400). Response: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't meet our requirements.\",\"error_user_msg\":\"The media could not be fetched from this URI: https:\\/\\/cdn.jsdelivr.net\\/gh\\/emirhanavan0-code\\/instagram-otomasyon\\u00400f3e9ea868def8b3a5"
+  "stil": "altin"
 }
