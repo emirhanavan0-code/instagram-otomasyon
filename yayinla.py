@@ -12,6 +12,8 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+import requests
+
 import ig
 
 ROOT = Path(__file__).parent
@@ -21,6 +23,22 @@ REPO = os.environ.get("GITHUB_REPOSITORY", "emirhanavan0-code/instagram-otomasyo
 def medya_url(yol, sha):
     # jsDelivr doğru içerik türüyle (image/jpeg, video/mp4) sunar; commit SHA ile adres değişmez
     return f"https://cdn.jsdelivr.net/gh/{REPO}@{sha}/{yol}"
+
+
+def isit(urls, deneme=6):
+    # Her çalıştırmada yeni commit SHA'sı kullanılıyor; jsDelivr bu adresi ilk istekte GitHub'dan çekerken
+    # Instagram beklemeden vazgeçebiliyor (23 Ekim carousel'i "Media download has failed" aldı).
+    # Bu yüzden adresleri önce kendimiz isteyip önbelleğe aldırıyoruz.
+    for u in urls:
+        for i in range(deneme):
+            try:
+                r = requests.get(u, timeout=30)
+                if r.ok and r.headers.get("content-type", "").startswith(("image/", "video/")):
+                    break
+            except requests.RequestException:
+                pass
+            time.sleep(5 * (i + 1))
+    time.sleep(5)
 
 
 def hazir_bekle(creation_id, deneme=40, hata_siniri=8):
@@ -47,6 +65,7 @@ def kimlik(sonuc):
 
 def taslak_olustur(icerik, ig_user_id, sha):
     urls = [medya_url(m, sha) for m in icerik["medya"]]
+    isit(urls)
     aciklama = icerik["aciklama"]
     if icerik["tur"] == "reels":
         video, kapak = urls
