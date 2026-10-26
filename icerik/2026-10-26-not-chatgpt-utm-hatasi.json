@@ -1,7 +1,7 @@
 {
   "id": "2026-10-26-not-chatgpt-utm-hatasi",
   "tur": "gorsel",
-  "durum": "planlandi",
+  "durum": "yayinlandi",
   "stil": "gece",
   "yayin_zamani": "2026-10-26T16:00:00+03:00",
   "aciklama": "Analytics'te ChatGPT trafiğiniz birden düştü mü? Panik yapmayın. 📊\n\nEkim başında ChatGPT linklerinden utm_source=chatgpt.com etiketi kayboldu. OpenAI hatayı doğruladı; düzeltme 15 Ekim'de yayılmaya başladı.\n\nSizin için anlamı: GA4'te 8–15 Ekim arasında ChatGPT trafiği düşüp direct arttıysa, büyük ihtimalle ölçüm hatasıdır.\n\nKaynak: Search Engine Land, 20 Ekim 2026.\n\n📌 Kaydedin, takip edin.\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#chatgpt #ga4 #geo #analytics #seo #seovedijital",
@@ -18,5 +18,7 @@
   ],
   "medya": [
     "medya/2026-10-26-not-chatgpt-utm-hatasi/01.jpg"
-  ]
+  ],
+  "instagram_id": "18117694178080101",
+  "yayinlanma": "2026-10-26T13:36:47+00:00"
 }
