@@ -69,7 +69,7 @@ async function reelsUret(browser, icerik, cikti) {
     "-filter_complex", `[1:a]loudnorm=I=-17:TP=-1.5,afade=t=in:d=1,afade=t=out:st=${toplamSure - 1.5}:d=1.5[a]`,
     "-map", "0:v", "-map", "[a]", "-t", String(toplamSure),
     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-profile:v", "high", "-preset", "medium", "-crf", "20",
-    "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", video,
+    "-c:a", "aac", "-ar", "48000", "-b:a", "128k", "-movflags", "+faststart", video,
   ], { stdio: ["pipe", "inherit", "inherit"] });
   const bitti = new Promise((ok, hata) => ffmpeg.on("close", k => (k === 0 ? ok() : hata(new Error("ffmpeg " + k)))));
 
