@@ -64,9 +64,10 @@
       "sure": 4
     }
   ],
-  "durum": "planlandi",
+  "durum": "hata",
   "medya": [
     "medya/2026-10-29-seovedijital-ne-yapar/reels.mp4",
     "medya/2026-10-29-seovedijital-ne-yapar/kapak.jpg"
-  ]
+  ],
+  "hata": "Instagram medyayı işleyemedi: {'id': '17942272527383519', 'status_code': 'ERROR'}"
 }
