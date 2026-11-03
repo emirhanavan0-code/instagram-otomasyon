@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-08-ai-overviews-kontrol",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-08T12:30:00+03:00",
+  "aciklama": "Google'ın yapay zeka özetinde neden çıkmıyorsunuz? 🔍\n\nGoogle'a göre yapay zeka özellikleri de normal aramanın kurallarıyla çalışır: sayfanın dizinde olması ve snippet gösterilebilir olması gerekir.\nÖnce bu 5 temeli kontrol edin.\n\nKaynak: Google Search Central, \"AI features and your website\" belgesi.\n\n📌 Kaydedin.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#aioverviews #googleseo #geo #yapayzeka #teknikseo #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Google · AI Overviews",
+      "baslik": "Yapay zeka özetinde *yoksanız*",
+      "alt": "Önce bu 5 temeli kontrol edin."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Sayfa *dizinde* mi?",
+      "metin": "Search Console'da URL denetimi yapın. Dizinde olmayan sayfa **hiçbir** cevapta çıkmaz."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Snippet *engeli* var mı?",
+      "metin": "nosnippet veya çok kısa max-snippet ayarı, metninizin **gösterilmesini** sınırlar."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Cevap *net* mi?",
+      "metin": "Soruya doğrudan cevap veren kısa bir bölüm yazın. **Genel** cümleler alıntılanmaz."
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Yazar ve *güven*",
+      "metin": "Kim yazdı, ne zaman güncellendi, kaynak ne? Bunları sayfada **açıkça** gösterin.",
+      "liste": [
+        "Yazar",
+        "Tarih",
+        "Kaynak"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 5,
+      "baslik": "Yapılandırılmış *veri*",
+      "metin": "İçeriğinizle uyumlu şema işaretlemesi ekleyin. Sayfada görünen bilgiyle **aynı** olsun."
+    },
+    {
+      "tip": "cta",
+      "ust": "AI GEO · GEO Denetimi",
+      "baslik": "Sitenizi yapay zeka için *denetleyelim*",
+      "aciklama": "Dizin, içerik ve şema tarafında sizi yapay zeka cevaplarından uzak tutan sorunları buluyoruz."
+    }
+  ],
+  "stil": "altin",
+  "medya": [
+    "medya/2026-11-08-ai-overviews-kontrol/01.jpg",
+    "medya/2026-11-08-ai-overviews-kontrol/02.jpg",
+    "medya/2026-11-08-ai-overviews-kontrol/03.jpg",
+    "medya/2026-11-08-ai-overviews-kontrol/04.jpg",
+    "medya/2026-11-08-ai-overviews-kontrol/05.jpg",
+    "medya/2026-11-08-ai-overviews-kontrol/06.jpg",
+    "medya/2026-11-08-ai-overviews-kontrol/07.jpg"
+  ]
+}

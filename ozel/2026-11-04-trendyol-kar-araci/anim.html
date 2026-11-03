@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+html,body{margin:0;background:#000;}
+#st{position:relative;width:1080px;height:1920px;overflow:hidden;background:#050507;font-family:Geist,sans-serif;color:#f5f4f2;}
+.bg{position:absolute;inset:-260px;background:
+  radial-gradient(760px 620px at 24% 30%,rgba(255,61,46,.30),transparent 70%),
+  radial-gradient(760px 640px at 80% 64%,rgba(255,122,69,.26),transparent 70%),
+  radial-gradient(700px 560px at 50% 100%,rgba(139,92,246,.24),transparent 70%),
+  radial-gradient(1300px 1000px at 50% 50%,#120a0a,#050507 75%);}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,150,120,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,150,120,.06) 1px,transparent 1px);background-size:90px 90px;-webkit-mask:radial-gradient(circle at 50% 50%,#000 20%,transparent 70%);mask:radial-gradient(circle at 50% 50%,#000 20%,transparent 70%);}
+.big{position:absolute;left:50%;top:50%;font-family:'Bricolage Grotesque';font-weight:600;font-size:330px;letter-spacing:-.05em;white-space:nowrap;color:rgba(255,140,110,.06);transform:translate(-50%,-50%);}
+em{font-family:'Instrument Serif';font-style:italic;font-weight:400;letter-spacing:0;font-size:1.12em;background:linear-gradient(90deg,#ff7a45,#ff3d6e 60%,#b49cff);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:6px;}
+/* kanca */
+#hook{position:absolute;left:0;right:0;top:0;bottom:0;opacity:0;}
+#hq{position:absolute;left:0;right:0;top:250px;text-align:center;font-family:'Bricolage Grotesque';font-weight:500;font-size:96px;letter-spacing:-.045em;line-height:1;}
+#hq2{position:absolute;left:0;right:0;top:250px;text-align:center;font-family:'Bricolage Grotesque';font-weight:500;font-size:96px;letter-spacing:-.045em;line-height:1.02;opacity:0;}
+#card{position:absolute;left:110px;right:110px;top:520px;padding:56px 60px 40px;border-radius:56px;background:linear-gradient(180deg,rgba(24,18,20,.92),rgba(12,11,15,.92));border:1px solid rgba(255,255,255,.12);box-shadow:0 50px 140px rgba(0,0,0,.6),0 0 160px rgba(255,61,46,.18);}
+#card .lab{display:flex;justify-content:space-between;font-size:30px;letter-spacing:.2em;text-transform:uppercase;color:#9a9cab;}
+#card .lab b{font-weight:500;color:#ff9a70;letter-spacing:.12em}
+#hv{margin-top:18px;font-family:'Bricolage Grotesque';font-weight:600;font-size:200px;letter-spacing:-.06em;line-height:1;white-space:nowrap;}
+.ded{display:flex;justify-content:space-between;align-items:baseline;padding:22px 0;border-top:1px dashed rgba(255,255,255,.14);font-size:42px;opacity:0;}
+.ded:first-of-type{margin-top:30px}
+.ded span{color:#c9cbd6}
+.ded b{font-family:'Geist Mono',monospace;font-weight:500;color:#ff5a4a;}
+/* başlık */
+#title{position:absolute;left:0;right:0;top:470px;text-align:center;opacity:0;}
+#title .k{display:inline-flex;align-items:center;gap:16px;padding:16px 30px;border-radius:999px;background:rgba(255,61,46,.16);border:1px solid rgba(255,122,69,.5);color:#ff9a70;font-weight:600;font-size:32px;letter-spacing:.14em;text-transform:uppercase;}
+#title h1{margin:40px 0 0;font-family:'Bricolage Grotesque';font-weight:500;font-size:132px;line-height:.95;letter-spacing:-.055em;}
+#title h1 small{display:block;font-size:.6em;letter-spacing:-.04em;margin-top:18px;color:#d8d9e2}
+.chips{display:flex;justify-content:center;gap:16px;margin-top:50px;flex-wrap:wrap;padding:0 60px}
+.chips span{padding:16px 28px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.05);font-size:34px;color:#d8d9e2;}
+.chips span::before{content:"✓";color:#36d69a;margin-right:12px;font-weight:600;}
+/* telefon */
+.cam{position:absolute;inset:0;perspective:2600px;}
+#phone{position:absolute;left:-36px;top:-256.5px;width:1152px;height:2433px;border-radius:150px;background:#0b0c12;box-shadow:0 0 0 4px #2a2d3a,0 0 0 9px #0d0e14,0 80px 200px rgba(0,0,0,.7),0 0 240px rgba(255,92,50,.38);transform-origin:50% 50%;will-change:transform,filter;opacity:0;}
+#scr{position:absolute;left:26px;top:26px;width:1100px;height:2381px;border-radius:124px;overflow:hidden;background:#050507;}
+#pg{position:absolute;left:0;top:0;width:1100px;}
+#fr{position:absolute;left:0;top:0;width:390px;border:0;transform-origin:0 0;background:#050507;}
+#glare{position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.14) 48%,transparent 60%);mix-blend-mode:screen;pointer-events:none;}
+.notch{position:absolute;left:50%;top:44px;width:300px;height:84px;margin-left:-150px;border-radius:50px;background:#000;}
+#tap{position:absolute;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:6px solid rgba(255,255,255,.95);background:rgba(255,255,255,.2);opacity:0;}
+#hl{position:absolute;border-radius:40px;border:5px solid #ff7a45;box-shadow:0 0 0 10px rgba(255,122,69,.22),0 0 60px rgba(255,122,69,.5);opacity:0;}
+/* yazılar */
+.cap{position:absolute;left:0;right:0;text-align:center;opacity:0;}
+.cap span{display:inline-block;padding:26px 46px;border-radius:999px;background:rgba(10,8,12,.78);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.14);font-family:'Bricolage Grotesque';font-weight:500;font-size:58px;letter-spacing:-.025em;box-shadow:0 30px 80px rgba(0,0,0,.5);}
+.step{position:absolute;left:70px;top:170px;display:flex;align-items:center;gap:28px;padding:22px 40px 22px 22px;border-radius:999px;background:rgba(10,8,12,.8);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.16);box-shadow:0 30px 80px rgba(0,0,0,.5);opacity:0;}
+.step b{display:grid;place-items:center;width:96px;height:96px;border-radius:50%;background:linear-gradient(135deg,#ff3d2e,#ff7a45);font-family:'Bricolage Grotesque';font-weight:600;font-size:52px;}
+.step div small{display:block;font-size:26px;letter-spacing:.2em;text-transform:uppercase;color:#a6a9bd;}
+.step div span{display:block;font-family:'Bricolage Grotesque';font-weight:500;font-size:54px;letter-spacing:-.025em;margin-top:2px;}
+#ornek{position:absolute;right:70px;top:205px;padding:14px 26px;border-radius:999px;background:rgba(255,184,77,.14);border:1px solid rgba(255,184,77,.5);color:#ffcf85;font-size:30px;font-weight:500;opacity:0;}
+/* kapanış */
+#end{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;}
+#ring{position:absolute;left:50%;top:40%;width:860px;height:860px;margin:-430px 0 0 -430px;border-radius:50%;background:conic-gradient(from 0deg,#ff3d2e,#ff7a45,#ffb84d,#8b5cf6,#ff3d2e);-webkit-mask:radial-gradient(circle,transparent 61%,#000 62%);mask:radial-gradient(circle,transparent 61%,#000 62%);opacity:.8;}
+#ringglow{position:absolute;left:50%;top:40%;width:1060px;height:1060px;margin:-530px 0 0 -530px;border-radius:50%;background:radial-gradient(circle,rgba(255,92,50,.38),transparent 62%);}
+.e-logo{width:140px;height:140px;margin-bottom:30px;position:relative;filter:drop-shadow(0 0 40px rgba(255,122,69,.55));}
+.e-k{position:relative;margin-bottom:30px;padding:14px 28px;border-radius:999px;background:rgba(255,61,46,.16);border:1px solid rgba(255,122,69,.5);color:#ff9a70;font-weight:600;font-size:30px;letter-spacing:.14em;text-transform:uppercase;}
+.e-t{position:relative;font-family:'Bricolage Grotesque';font-weight:500;font-size:110px;letter-spacing:-.05em;line-height:.98;text-align:center;}
+.e-s{position:relative;margin-top:40px;padding:16px 34px;border-radius:999px;background:rgba(10,8,12,.85);border:1px solid rgba(255,255,255,.14);font-size:36px;color:#d8d9e2;}
+.e-u{position:relative;margin-top:100px;padding:30px 60px;border-radius:999px;background:#f6f4ef;color:#0b0c12;font-family:'Bricolage Grotesque';font-weight:600;font-size:54px;letter-spacing:-.02em;box-shadow:0 30px 90px rgba(255,92,50,.4);}
+.e-n{position:relative;margin-top:26px;font-size:34px;color:#9a9cab;}
+.e-p{position:relative;margin-top:22px;font-size:40px;color:#c9cbd6;letter-spacing:.02em;}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;mix-blend-mode:screen;}
+.grain{position:absolute;inset:0;opacity:.07;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");}
+.vig{position:absolute;inset:0;background:radial-gradient(130% 90% at 50% 50%,transparent 55%,rgba(0,0,0,.55));pointer-events:none;}
+</style></head><body>
+<div id="st">
+  <div class="bg" id="bg"></div><div class="grid"></div>
+  <div class="big" id="big">Trendyol</div>
+
+  <div id="hook">
+    <div id="hq">1.000 ₺'ye <em>sattınız.</em></div>
+    <div id="hq2">Cebinize gerçekte<br><em>kaç lira</em> kaldı?</div>
+    <div id="card">
+      <div class="lab"><span>Satış fiyatı</span><b>Trendyol</b></div>
+      <div id="hv">1.000,00 ₺</div>
+      <div class="ded" id="d0"><span>Alış maliyeti</span><b>− 400,00 ₺</b></div>
+      <div class="ded" id="d1"><span>Komisyon (%15)</span><b>− 150,00 ₺</b></div>
+      <div class="ded" id="d2"><span>Ödenecek KDV</span><b>− 62,50 ₺</b></div>
+      <div class="ded" id="d3"><span>Kargo</span><b>− 60,00 ₺</b></div>
+      <div class="ded" id="d4"><span>Paketleme</span><b>− 15,00 ₺</b></div>
+    </div>
+  </div>
+
+  <div id="title">
+    <span class="k">Ücretsiz araç</span>
+    <h1>Trendyol <em>Kâr</em><br>Hesaplama<small>Komisyon · KDV · Kargo</small></h1>
+    <div class="chips"><span>Kayıt yok</span><span>KDV farkı dahil</span><span>Anında sonuç</span></div>
+  </div>
+
+  <div class="cam" id="cam">
+    <div id="phone"><div id="scr">
+      <div id="pg"><iframe id="fr" src="sayfa.html" scrolling="no"></iframe><div id="hl"></div><div id="tap"></div></div>
+      <div id="glare"></div><div class="notch" id="notch"></div>
+    </div></div>
+  </div>
+
+  <div class="cap" id="c0" style="top:1530px"><span>seovedijital.com'da <em>ücretsiz</em></span></div>
+  <div class="cap" id="c1" style="top:1560px"><span>Fiyatınızı ve <em>maliyetinizi</em> yazın</span></div>
+  <div class="cap" id="c2" style="top:1560px"><span>Komisyon, kargo, <em>paketleme</em></span></div>
+  <div class="cap" id="c3" style="top:1560px"><span>Net kârınız <em>anında</em></span></div>
+  <div class="cap" id="c4" style="top:1560px"><span>Her kuruş <em>nereye</em> gidiyor?</span></div>
+  <div class="cap" id="c5" style="top:1560px"><span>Hedef marj için <em>doğru fiyat</em></span></div>
+  <div class="cap" id="c6" style="top:1560px"><span>İndirimden <em>önce</em> görün</span></div>
+  <div class="step" id="s1"><b>1</b><div><small>Adım 1</small><span>Rakamları girin</span></div></div>
+  <div class="step" id="s2"><b>2</b><div><small>Adım 2</small><span>Gerçek kârı görün</span></div></div>
+  <div class="step" id="s3"><b>3</b><div><small>Adım 3</small><span>Fiyatınızı planlayın</span></div></div>
+  <div id="ornek">Örnek hesaplama</div>
+
+  <div id="end">
+    <div id="ringglow"></div><div id="ring"></div>
+    <img class="e-logo" src="logo.png">
+    <div class="e-k">Ücretsiz araç</div>
+    <div class="e-t">Trendyol <em>Kâr</em><br>Hesaplama</div>
+    <div class="e-s">Kayıt yok · KDV farkı dahil · Mobil uyumlu</div>
+    <div class="e-u">seovedijital.com</div>
+    <div class="e-n">Araçlar › Trendyol Kâr Hesaplama</div>
+    <div class="e-p">📞 0501 048 3732</div>
+  </div>
+  <div id="flash"></div>
+  <div class="vig"></div>
+  <div class="grain"></div>
+</div>
+<script>
+const K=1100/390, B=26, W=1152, H=2433;
+const $=id=>document.getElementById(id);
+const fr=$('fr'); fr.style.transform=`scale(${K})`;
+let D=null;
+window.hazir=new Promise(ok=>{fr.addEventListener('load',()=>{D=fr.contentDocument;
+  const h=D.documentElement.scrollHeight; fr.style.height=Math.max(h,9000)+'px'; setTimeout(ok,1500);});});
+const P=o=>Object.assign({s:.6,tx:0,ty:0,rx:0,ry:0,rz:0,scroll:0},o);
+const FULL=1080/1100;
+function full(scroll){return {s:FULL,tx:0,ty:-960-(B-H/2)*FULL,rx:0,ry:0,rz:0,scroll};}
+function focus(sx,sy,s,scroll){const lx=B+sx*K-W/2, ly=B+(sy-scroll)*K-H/2;return {s,tx:-lx*s,ty:-ly*s,rx:0,ry:0,rz:0,scroll};}
+// sayfa koordinatları (css px, 390 genişlik): fiyat 788, alış 887, komisyon çipleri 1048, kargo 1222, paketleme 1320;
+// net kâr 1680, halka 1661, yolculuk 1975, döküm 2173-2479, hedef fiyat 3006, fiyat senaryosu 3335
+const KF=[
+ [0.0,  P({s:.42,tx:0,ty:2200,rx:40,ry:30,rz:-12})],
+ [6.0,  P({s:.42,tx:0,ty:2200,rx:40,ry:30,rz:-12})],
+ [7.2,  P({s:.5,tx:0,ty:420,rx:12,ry:-20,rz:-4})],
+ [7.8,  P({s:.53,tx:0,ty:400,rx:6,ry:-10,rz:-2})],
+ [8.4,  full(0)],
+ [9.0,  full(0)],
+ [9.6,  full(700)],
+ [10.0, focus(195,815,1.28,700)],
+ [10.9, focus(195,822,1.3,700)],
+ [11.2, focus(195,914,1.28,700)],
+ [11.8, focus(195,918,1.3,700)],
+ [12.1, focus(195,1050,1.28,700)],
+ [12.6, focus(195,1055,1.3,700)],
+ [12.9, focus(195,1290,1.22,700)],
+ [14.0, focus(195,1296,1.24,700)],
+ [14.6, full(1640)],
+ [15.2, focus(200,1740,1.14,1640)],
+ [17.1, focus(200,1742,1.18,1640)],
+ [17.6, full(1700)],
+ [18.2, full(2010)],
+ [20.0, full(2030)],
+ [20.7, full(2880)],
+ [22.6, full(2890)],
+ [23.0, full(3150)],
+ [24.5, full(3165)],
+ [25.2, P({s:.3,tx:520,ty:950,rx:22,ry:50,rz:10,scroll:3165})],
+];
+const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const easeOut=t=>1-Math.pow(1-t,3);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+function cam(t){let i=0;while(i<KF.length-2&&t>KF[i+1][0])i++;
+  const [t0,a]=KF[i],[t1,b]=KF[i+1];const u=ease(cl((t-t0)/(t1-t0)));const o={};for(const k in a)o[k]=a[k]+(b[k]-a[k])*u;return o;}
+function fade(t,a,b,f=.3){return cl(Math.min((t-a)/f,(b-t)/f));}
+const done={}; function once(k,f){if(!done[k]){done[k]=1;f();}}
+const HITS=[1.0,1.35,1.7,2.05,2.4];
+// alanlara yazma: [id, metin, başlangıç, süre]
+const YAZ=[['tk-p','1000',10.15,.6],['tk-a','400',11.25,.45],['tk-s','60',12.95,.3],['tk-e','15',13.4,.3]];
+function sayfa(t){
+  if(!D)return;
+  const g=id=>D.getElementById(id);
+  for(const [id,s,a,d] of YAZ){if(t>=a&&t<a+d+.5){const n=Math.floor(cl((t-a)/d)*s.length);const e=g(id);const v=s.slice(0,n);if(e.value!==v){e.value=v;e.dispatchEvent(new Event('input'));}}
+    if(t>=a+d+.5)once('blur'+id,()=>g(id).dispatchEvent(new Event('blur')));}
+  if(t>=12.35)once('kom',()=>D.querySelector('.tk-chips .tk-chip[data-v="15"]').click());
+  const tm=g('tk-tm'); if(t>=21.2&&t<=22.9){const v=Math.round(20+15*ease(cl((t-21.2)/1.4)));if(+tm.value!==v){tm.value=v;tm.dispatchEvent(new Event('input'));}}
+  const dp=g('tk-dp'); if(t>=23.0&&t<=24.4){const v=Math.round(-10*ease(cl((t-23.0)/1.2)));if(+dp.value!==v){dp.value=v;dp.dispatchEvent(new Event('input'));}}
+}
+function scramble(t){const r=n=>{const x=Math.sin(n*12.9898+Math.floor(t*18)*78.233)*43758.5453;return Math.floor((x-Math.floor(x))*10);};
+  return r(1)+''+r(2)+r(3)+','+r(4)+r(5)+' ₺';}
+window.render=function(t){
+  sayfa(t);
+  const c=cam(t), p=cam(Math.max(0,t-1/30));
+  const v=Math.abs(c.s-p.s)*60+Math.abs(c.ty-p.ty)/40+Math.abs(c.tx-p.tx)/40+Math.abs(c.scroll-p.scroll)/22+Math.abs(c.ry-p.ry)/3;
+  const ph=$('phone');
+  ph.style.opacity=cl((t-6.0)/.25);
+  ph.style.transform=`translate3d(${c.tx}px,${c.ty}px,0) rotateX(${c.rx}deg) rotateY(${c.ry}deg) rotateZ(${c.rz}deg) scale(${c.s})`;
+  ph.style.filter=v>.6?`blur(${Math.min(10,(v-.6)*1.6)}px)`:'none';
+  $('pg').style.transform=`translateY(${-c.scroll*K}px)`;
+  const gl=((t*0.55)%1.6)-.3; $('glare').style.transform=`translateX(${gl*140}%)`; $('glare').style.opacity=c.s<.9?1:0; $('notch').style.opacity=cl((0.9-c.s)/.15);
+  $('big').style.transform=`translate(${-50-t*1.4}%,-50%)`; $('big').style.opacity=1-cl((t-6.2)/.5);
+  $('bg').style.transform=`scale(${1+t*0.012}) rotate(${t*0.8}deg)`;
+  // kanca
+  const hk=$('hook'); const ho=fade(t,.1,3.95,.3); hk.style.opacity=ho;
+  let sh=0; HITS.forEach(h=>{if(t>=h)sh+=Math.exp(-(t-h)*16)*(t-h<.5?1:0);});
+  const sx=Math.sin(t*90)*sh*14, sy=Math.cos(t*77)*sh*10;
+  hk.style.transform=`translate(${sx}px,${sy}px) scale(${1+cl((t-3.6)/.35)*.06})`;
+  hk.style.filter=`blur(${cl((t-3.6)/.35)*8}px)`;
+  const q1=fade(t,.15,2.55,.25); $('hq').style.opacity=q1; $('hq').style.transform=`translateY(${(1-easeOut(cl((t-.15)/.45)))*50}px)`;
+  const q2=easeOut(cl((t-2.6)/.3)); $('hq2').style.opacity=q2; $('hq2').style.transform=`translateY(${(1-q2)*40}px) scale(${1.04-.04*q2})`;
+  const cu=easeOut(cl((t-.3)/.5)); $('card').style.transform=`translateY(${(1-cu)*120}px) scale(${.94+.06*cu})`; $('card').style.opacity=cu;
+  let hits=HITS.filter(h=>t>=h).length;
+  const hv=$('hv');
+  if(hits===0){hv.textContent='1.000,00 ₺';hv.style.filter='none';hv.style.color='#f5f4f2';}
+  else if(t<2.7){hv.textContent=scramble(t);hv.style.filter=`blur(${hits*1.6}px)`;hv.style.color='#ff7a6a';}
+  else {hv.textContent='??? ₺';hv.style.filter='none';hv.style.color='#ffb84d';}
+  hv.style.transform=`scale(${1+sh*.06})`;
+  HITS.forEach((h,i)=>{const e=$('d'+i),u=easeOut(cl((t-h)/.22));e.style.opacity=u;e.style.transform=`translateX(${(1-u)*-80}px)`;});
+  // başlık
+  const ti=$('title'); const tu=fade(t,4.0,6.3,.35); ti.style.opacity=tu; ti.style.transform=`translateY(${(1-easeOut(cl((t-4.0)/.5)))*60 - cl((t-5.9)/.4)*90}px) scale(${1.06-.06*easeOut(cl((t-4.0)/.6))})`;
+  // dokunma ve vurgu
+  const chip=[130,1048,45,32];
+  const tap=$('tap'); tap.style.left=(chip[0]+chip[2]/2)*K+'px'; tap.style.top=(chip[1]+chip[3]/2)*K+'px';
+  const tp=cl((t-12.15)/.45); tap.style.opacity=tp>0&&tp<1?(1-tp):0; tap.style.transform=`scale(${.5+tp*1.1})`;
+  const hl=$('hl'); let r=null, hlo=0;
+  if(t>10.0&&t<11.1){r=[36,788,318,54];hlo=fade(t,10.0,11.1,.2);} else if(t>11.1&&t<12.0){r=[36,887,318,54];hlo=fade(t,11.1,12.0,.2);}
+  else if(t>12.0&&t<12.85){r=[36,985,318,96];hlo=fade(t,12.0,12.85,.2);} else if(t>12.85&&t<13.3){r=[36,1222,318,54];hlo=fade(t,12.85,13.3,.15);}
+  else if(t>13.3&&t<14.2){r=[36,1320,318,54];hlo=fade(t,13.3,14.2,.15);}
+  else if(t>15.2&&t<17.3){r=[27,1650,336,190];hlo=fade(t,15.2,17.3,.25);}
+  if(r){hl.style.left=(r[0]-4)*K+'px';hl.style.top=(r[1]-4)*K+'px';hl.style.width=(r[2]+8)*K+'px';hl.style.height=(r[3]+8)*K+'px';}
+  hl.style.opacity=hlo;
+  // yazılar
+  [['c0',8.5,9.55],['c1',10.1,11.95],['c2',12.05,14.15],['c3',15.2,17.4],['c4',18.3,20.1],['c5',20.9,22.85],['c6',22.95,24.55]].forEach(([id,a,b])=>{
+    const e=$(id),f=fade(t,a,b,.3);e.style.opacity=f;e.style.transform=`translateY(${(1-f)*30}px) scale(${.96+.04*f})`;});
+  [['s1',9.7,14.2],['s2',14.6,20.1],['s3',20.7,24.55]].forEach(([id,a,b])=>{
+    const e=$(id),f=fade(t,a,b,.3);e.style.opacity=f;e.style.transform=`translateX(${(1-f)*-60}px)`;});
+  $('ornek').style.opacity=fade(t,14.6,24.55,.3);
+  // kapanış
+  const eu=cl((t-25.15)/.6);
+  $('end').style.opacity=eu; $('end').style.transform=`scale(${1.12-.12*easeOut(eu)})`;
+  $('ring').style.transform=`rotate(${t*40}deg)`;
+  $('cam').style.opacity=1-cl((t-25.1)/.4);
+  let fl=Math.max(0,.3-Math.abs(t-4.0)*1.6)+Math.max(0,.55-Math.abs(t-25.15)*2.2)+Math.max(0,.2-Math.abs(t-14.65)*1.4);
+  HITS.forEach(h=>{fl+=Math.max(0,.12-Math.abs(t-h)*1.2);});
+  $('flash').style.opacity=fl;
+  $('st').style.filter=`brightness(${t<.2?t/.2:1})`;
+};
+</script></body></html>

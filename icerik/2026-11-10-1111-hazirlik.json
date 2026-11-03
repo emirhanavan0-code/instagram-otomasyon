@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-10-1111-hazirlik",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-10T12:30:00+03:00",
+  "aciklama": "11.11 yarın. Mağazanız hazır mı? ⏱️\n\nYoğun indirim günlerinde küçük bir hata büyük kayba dönüşür.\nSiparişler gelmeden önce bu 5 maddeyi kontrol edin.\n\n📌 Kaydedin, bir sonraki kampanyada da kullanın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#1111 #trendyol #kasımindirimleri #eticaret #kampanya #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · 11.11",
+      "baslik": "11.11 öncesi *son* kontrol",
+      "alt": "Siparişler gelmeden 5 madde."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Stok *doğru* mu?",
+      "metin": "Panel stoğu ile depo **aynı** olsun. Satıp gönderemediğiniz ürün iptale döner."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Fiyat ve *kâr*",
+      "metin": "İndirimli fiyatın net kârını hesaplayın. **Zararına** satış kampanya değildir."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Kargo *hazırlığı*",
+      "metin": "Paketleme malzemesi, ekip ve kargo çıkış saatini önceden **planlayın**.",
+      "liste": [
+        "Koli",
+        "Etiket",
+        "Çıkış saati"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Öne çıkan *ürün*",
+      "metin": "Kampanyayı en çok satan ve **kârı yüksek** ürünlerinize odaklayın."
+    },
+    {
+      "tip": "madde",
+      "no": 5,
+      "baslik": "Soru ve *mesaj*",
+      "metin": "Yoğun günde müşteri soruları artar. Cevap için **saat** ayırın."
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Satış Artırma",
+      "baslik": "Kampanya günlerini *birlikte* yönetelim",
+      "aciklama": "Hazırlıktan kampanya sonrası rapora kadar mağazanızın yanındayız."
+    }
+  ],
+  "stil": "altin",
+  "medya": [
+    "medya/2026-11-10-1111-hazirlik/01.jpg",
+    "medya/2026-11-10-1111-hazirlik/02.jpg",
+    "medya/2026-11-10-1111-hazirlik/03.jpg",
+    "medya/2026-11-10-1111-hazirlik/04.jpg",
+    "medya/2026-11-10-1111-hazirlik/05.jpg",
+    "medya/2026-11-10-1111-hazirlik/06.jpg",
+    "medya/2026-11-10-1111-hazirlik/07.jpg"
+  ]
+}

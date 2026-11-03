@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-12-ga4-yapay-zeka-trafigi",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-12T12:30:00+03:00",
+  "aciklama": "ChatGPT'den sitenize gelen var mı? Google Analytics söylüyor. 📊\n\nYapay zeka araçlarından gelen ziyaretçiler GA4'te yönlendiren site olarak görünür.\n3 adımda kendi raporunuzu kurun ve her ay bakın.\n\n📌 Kaydedin, adımları birlikte uygulayın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#ga4 #googleanalytics #chatgpt #geo #yapayzeka #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "GEO · Ölçüm",
+      "baslik": "Yapay zekadan *kaç ziyaretçi* geliyor?",
+      "alt": "GA4'te 3 adımda görün."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Edinme *raporu*",
+      "metin": "Raporlar › Edinme › Trafik edinme. Boyutu **Oturum kaynağı / aracı** yapın."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Kaynakları *filtreleyin*",
+      "metin": "Arama kutusuna yapay zeka araçlarının alan adlarını yazın.",
+      "liste": [
+        "chatgpt.com",
+        "perplexity.ai",
+        "gemini.google.com",
+        "copilot.microsoft.com"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Açılış *sayfaları*",
+      "metin": "Bu ziyaretçiler **hangi sayfaya** iniyor? Yapay zekanın önerdiği sayfalarınız bunlar."
+    },
+    {
+      "tip": "alinti",
+      "ust": "İpucu",
+      "baslik": "Her ay *aynı gün* bakın",
+      "metin": "Rakam küçük olabilir; önemli olan **yön**. Artıyorsa doğru yoldasınız."
+    },
+    {
+      "tip": "cta",
+      "ust": "AI GEO · Görünürlük Takibi",
+      "baslik": "Yapay zeka trafiğinizi *takip* edelim",
+      "aciklama": "Yapay zeka kaynaklı ziyaretleri ve cevaplardaki görünürlüğünüzü aylık raporluyoruz."
+    }
+  ],
+  "medya": [
+    "medya/2026-11-12-ga4-yapay-zeka-trafigi/01.jpg",
+    "medya/2026-11-12-ga4-yapay-zeka-trafigi/02.jpg",
+    "medya/2026-11-12-ga4-yapay-zeka-trafigi/03.jpg",
+    "medya/2026-11-12-ga4-yapay-zeka-trafigi/04.jpg",
+    "medya/2026-11-12-ga4-yapay-zeka-trafigi/05.jpg",
+    "medya/2026-11-12-ga4-yapay-zeka-trafigi/06.jpg"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-09-urun-sorulari",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-09T12:30:00+03:00",
+  "aciklama": "Cevapsız ürün sorusu, kaçan satıştır. 💬\n\nÜrün sayfanızdaki soru-cevaplar herkese açıktır. Bir müşteriye verdiğiniz cevabı, aynı şeyi merak eden herkes okur.\nBu 4 alışkanlıkla soruları satışa çevirin.\n\n📌 Kaydedin, ekibinizle paylaşın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #müşterihizmetleri #eticaret #trendyolsatıcı #dönüşüm #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Mağaza",
+      "baslik": "Ürün soruları *satış* getirir",
+      "alt": "Soruları satışa çeviren 4 alışkanlık."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Hızlı *cevap*",
+      "metin": "Soru bekledikçe müşteri rakibe bakar. Her gün **belirli saatlerde** soruları kontrol edin."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Net ve *kısa*",
+      "metin": "\"Evet, 42 numara dar kalıptır, bir büyük alın.\" gibi **karar verdiren** cevaplar yazın."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Tekrar edeni *sayfaya* taşıyın",
+      "metin": "Aynı soru sık geliyorsa cevabı **açıklamaya** ve görsellere ekleyin.",
+      "liste": [
+        "Ölçü",
+        "Malzeme",
+        "Kullanım"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Şikâyete *sakin* cevap",
+      "metin": "Olumsuz soruya savunmayla değil, **çözümle** cevap verin. Herkes okuyor."
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Mağaza Yönetimi",
+      "baslik": "Mağazanızı *günlük* yönetelim",
+      "aciklama": "Soru-cevap, ürün içeriği ve kampanya takibini sizin yerinize düzenli yapıyoruz."
+    }
+  ],
+  "stil": "kor",
+  "medya": [
+    "medya/2026-11-09-urun-sorulari/01.jpg",
+    "medya/2026-11-09-urun-sorulari/02.jpg",
+    "medya/2026-11-09-urun-sorulari/03.jpg",
+    "medya/2026-11-09-urun-sorulari/04.jpg",
+    "medya/2026-11-09-urun-sorulari/05.jpg",
+    "medya/2026-11-09-urun-sorulari/06.jpg"
+  ]
+}

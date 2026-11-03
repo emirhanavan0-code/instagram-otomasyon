@@ -16,6 +16,13 @@ sahibi PR'ı birleştirerek onaylar, GitHub Actions zamanı gelince Composio üz
 Her gün reels + carousel + kısa not (güncel kaynaklı haber). Konular blog yazıları, sözlük, ücretsiz araçlar ve
 seovedijital tanıtımı arasında döner. Saatler genelde 12:30 / 16:00 (not) / 19:00, reels ve carousel sırası gün gün değişir.
 
+## Günde 2 gönderi dönemi (4–13 Kasım 2026, sahibinin isteği)
+Her gün 12:30 `carousel` (kaydırmalı) + 19:30 `gorsel` (tek post). Konular GEO ağırlıklı, Trendyol ile dönüşümlü.
+4 Kasım 16:30'da ek olarak Trendyol Kâr ve Komisyon Hesaplama aracının özel kurgu reels'i var
+(`ozel/2026-11-04-trendyol-kar-araci`, ücretli reklamda da kullanılacak).
+**Haftalık içerik görevi bu dönemde:** gelecek haftanın günleri `icerik/` içinde zaten planlıysa o günler için
+yeni içerik yazma; yalnızca boş kalan günleri (14 Kasım ve sonrası) planla.
+
 ## Haftalık içerik görevi (her cuma, gelecek pazartesi–pazar için)
 1. `raporlar/` içindeki en yeni raporu ve önceki haftaların `icerik/` dosyalarını oku.
    Hangi tür/konu daha çok erişim, kaydetme ve paylaşım almış? Konuları tekrar etme.
