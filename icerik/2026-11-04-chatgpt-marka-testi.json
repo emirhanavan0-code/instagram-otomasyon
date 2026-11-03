@@ -1,0 +1,70 @@
+{
+  "id": "2026-11-04-chatgpt-marka-testi",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-04T12:30:00+03:00",
+  "aciklama": "ChatGPT sizi tanıyor mu? 5 dakikada test edin. 🤖\n\nMüşterileriniz artık \"en iyi ... hangisi?\" sorusunu yapay zekaya da soruyor.\nAşağıdaki 5 soruyu sorun, cevaplarda markanızın geçip geçmediğine bakın.\n\n📌 Kaydedin, ayda bir tekrarlayın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#geo #chatgpt #yapayzeka #yapayzekaseo #dijitalpazarlama #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "GEO · Test",
+      "baslik": "ChatGPT *sizi* tanıyor mu?",
+      "alt": "5 soruda kendi görünürlüğünüzü ölçün."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Kategori *sorusu*",
+      "metin": "\"Ankara'da en iyi ... hangileri?\" diye sorun. **Listede** var mısınız?",
+      "liste": [
+        "Şehir + hizmet",
+        "En iyi ... kim?"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Marka *sorusu*",
+      "metin": "\"[Markanız] nedir, ne yapar?\" diye sorun. Anlatılan sizin **doğru** bilginiz mi?"
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Karşılaştırma *sorusu*",
+      "metin": "\"[Siz] mi [rakip] mi?\" diye sorun. Yapay zeka sizi **nasıl** konumluyor?"
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Sorun *sorusu*",
+      "metin": "Müşterinizin derdini sorun: \"... için ne yapmalıyım?\" Cevapta **adınız** geçiyor mu?"
+    },
+    {
+      "tip": "madde",
+      "no": 5,
+      "baslik": "Kaynak *kontrolü*",
+      "metin": "Cevabın altındaki kaynaklara bakın. Rakibinizin **hangi sayfası** alıntılanıyor?",
+      "liste": [
+        "Rehber siteler",
+        "Blog yazıları",
+        "Yorumlar"
+      ]
+    },
+    {
+      "tip": "cta",
+      "ust": "AI GEO · Görünürlük Takibi",
+      "baslik": "Yapay zekada *önerilen* marka olun",
+      "aciklama": "Markanızın ChatGPT, Gemini ve AI Overviews cevaplarındaki yerini düzenli ölçüyor, iyileştiriyoruz."
+    }
+  ],
+  "stil": "gece",
+  "medya": [
+    "medya/2026-11-04-chatgpt-marka-testi/01.jpg",
+    "medya/2026-11-04-chatgpt-marka-testi/02.jpg",
+    "medya/2026-11-04-chatgpt-marka-testi/03.jpg",
+    "medya/2026-11-04-chatgpt-marka-testi/04.jpg",
+    "medya/2026-11-04-chatgpt-marka-testi/05.jpg",
+    "medya/2026-11-04-chatgpt-marka-testi/06.jpg",
+    "medya/2026-11-04-chatgpt-marka-testi/07.jpg"
+  ]
+}

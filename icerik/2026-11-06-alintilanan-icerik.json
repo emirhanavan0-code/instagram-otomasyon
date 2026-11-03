@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-alintilanan-icerik",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-06T12:30:00+03:00",
+  "aciklama": "Yapay zeka hangi paragrafı alıntılıyor? En net olanı. ✍️\n\nChatGPT ve Google'ın yapay zeka özetleri, soruya doğrudan cevap veren kısa ve düzenli içerikleri kullanmayı sever.\nYazılarınızı bu 4 kuralla düzenleyin.\n\n📌 Kaydedin, bir sonraki blog yazınızda uygulayın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#geo #yapayzeka #içerikpazarlaması #blog #seo #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "GEO · İçerik",
+      "baslik": "Yapay zeka *ne alıntılar?*",
+      "alt": "Alıntılanan içeriğin 4 kuralı."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Önce *cevap*",
+      "metin": "Başlıktaki soruya **ilk 2 cümlede** cevap verin. Giriş hikâyesini sona bırakın."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Kısa *paragraf*",
+      "metin": "Her paragraf tek fikir. 3–4 cümleyi geçmesin, **tek başına** anlaşılsın."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Liste ve *tablo*",
+      "metin": "Adımları numaralayın, karşılaştırmaları tabloya dökün. Yapı, **okunmayı** kolaylaştırır.",
+      "liste": [
+        "Numaralı adımlar",
+        "Karşılaştırma tablosu"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Sık sorulan *sorular*",
+      "metin": "Yazının sonuna müşterinizin gerçekten sorduğu soruları ve **kısa** cevaplarını ekleyin."
+    },
+    {
+      "tip": "cta",
+      "ust": "AI GEO · İçerik Optimizasyonu",
+      "baslik": "İçeriğiniz yapay zekaya *hazır* mı?",
+      "aciklama": "Mevcut sayfalarınızı yapay zeka cevaplarında kullanılacak şekilde yeniden düzenliyoruz."
+    }
+  ],
+  "medya": [
+    "medya/2026-11-06-alintilanan-icerik/01.jpg",
+    "medya/2026-11-06-alintilanan-icerik/02.jpg",
+    "medya/2026-11-06-alintilanan-icerik/03.jpg",
+    "medya/2026-11-06-alintilanan-icerik/04.jpg",
+    "medya/2026-11-06-alintilanan-icerik/05.jpg",
+    "medya/2026-11-06-alintilanan-icerik/06.jpg"
+  ]
+}

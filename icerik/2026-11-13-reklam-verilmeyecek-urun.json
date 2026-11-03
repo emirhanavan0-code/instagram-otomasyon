@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-13-reklam-verilmeyecek-urun",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-13T12:30:00+03:00",
+  "aciklama": "Her ürüne reklam verilmez. 🎯\n\nReklam, zaten satabilen ürünü büyütür; satamayan ürünü kurtarmaz.\nBütçeyi açmadan önce bu 4 soruyu sorun.\n\n📌 Kaydedin, reklam kurarken açın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyolreklam #trendyol #reklam #eticaret #trendyolsatıcı #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Reklam",
+      "baslik": "Bu ürüne *reklam* vermeyin",
+      "alt": "Bütçeden önce 4 soru."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Kâr *payı* var mı?",
+      "metin": "Reklam maliyeti kârdan çıkar. Net kârı ince ürün, reklamla **zarara** döner."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Sayfa *hazır* mı?",
+      "metin": "Zayıf görsel ve eksik açıklama, gelen tıklamayı **satışa** çeviremez.",
+      "liste": [
+        "Görsel",
+        "Başlık",
+        "Açıklama"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Yorumlar *iyi* mi?",
+      "metin": "Düşük puanlı üründe reklam, daha çok kişiye **olumsuz** yorumu gösterir."
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Stok *yeterli* mi?",
+      "metin": "Reklam işe yarayıp stok bitince bütçe ve sıralama **boşa** gider."
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Reklam Yönetimi",
+      "baslik": "Reklam bütçenizi *kârla* yönetelim",
+      "aciklama": "Hangi ürüne ne kadar reklam verileceğini kâr hesabıyla birlikte planlıyoruz."
+    }
+  ],
+  "stil": "zumrut",
+  "medya": [
+    "medya/2026-11-13-reklam-verilmeyecek-urun/01.jpg",
+    "medya/2026-11-13-reklam-verilmeyecek-urun/02.jpg",
+    "medya/2026-11-13-reklam-verilmeyecek-urun/03.jpg",
+    "medya/2026-11-13-reklam-verilmeyecek-urun/04.jpg",
+    "medya/2026-11-13-reklam-verilmeyecek-urun/05.jpg",
+    "medya/2026-11-13-reklam-verilmeyecek-urun/06.jpg"
+  ]
+}

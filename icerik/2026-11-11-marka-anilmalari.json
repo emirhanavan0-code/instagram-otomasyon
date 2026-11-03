@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-11-marka-anilmalari",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-11T12:30:00+03:00",
+  "aciklama": "Yapay zeka sizi nereden tanıyor? Başkalarının sizden bahsettiği yerlerden. 🗣️\n\nSadece kendi sitenizde anlattıklarınız yetmez. Rehber siteler, haberler, yorumlar ve forumlar da markanızın nasıl anlatıldığını belirler.\n\n📌 Kaydedin, bu ay 1 yeni kaynak hedefleyin.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#geo #marka #yapayzeka #dijitalpr #seo #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "GEO · Marka",
+      "baslik": "Yapay zeka *kimi* tanır?",
+      "alt": "Hakkında konuşulan markayı."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Rehber ve *listeler*",
+      "metin": "Sektörünüzdeki rehber ve \"en iyi ...\" listelerinde yer alın. Cevaplarda bu sayfalar **sık** kaynak olur."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Yorum *platformları*",
+      "metin": "Google İşletme Profili ve sektör sitelerindeki **gerçek** yorumlar markanızın anlatımını şekillendirir."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Tutarlı *bilgi*",
+      "metin": "Adres, telefon, hizmet adları her yerde **aynı** olsun. Çelişen bilgi güveni düşürür.",
+      "liste": [
+        "Ad",
+        "Adres",
+        "Telefon"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Uzman *içerik*",
+      "metin": "Sektör sitelerine görüş ve rehber yazıları verin. Adınız **konuyla** birlikte anılsın."
+    },
+    {
+      "tip": "cta",
+      "ust": "AI GEO · ChatGPT SEO",
+      "baslik": "Markanızı *doğru* anlatalım",
+      "aciklama": "Yapay zekanın kullandığı kaynaklarda markanızın görünürlüğünü ve tutarlılığını artırıyoruz."
+    }
+  ],
+  "stil": "gece",
+  "medya": [
+    "medya/2026-11-11-marka-anilmalari/01.jpg",
+    "medya/2026-11-11-marka-anilmalari/02.jpg",
+    "medya/2026-11-11-marka-anilmalari/03.jpg",
+    "medya/2026-11-11-marka-anilmalari/04.jpg",
+    "medya/2026-11-11-marka-anilmalari/05.jpg",
+    "medya/2026-11-11-marka-anilmalari/06.jpg"
+  ]
+}

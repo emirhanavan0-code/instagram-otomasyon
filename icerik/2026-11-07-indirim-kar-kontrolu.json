@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-07-indirim-kar-kontrolu",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-07T12:30:00+03:00",
+  "aciklama": "İndirim satışı artırır. Peki kârı? 🧮\n\nKasım indirimine girmeden önce bu 4 kontrolü yapın.\nRakamları seovedijital.com'daki ücretsiz Trendyol Kâr Hesaplama aracıyla saniyeler içinde görebilirsiniz.\n\n📌 Kaydedin, kampanya öncesi açın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #kasımindirimleri #kârhesabı #eticaret #trendyolsatıcı #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Kasım",
+      "baslik": "İndirimde *zarar* etmeyin",
+      "alt": "Kampanyadan önce 4 kontrol."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Yeni *net kâr*",
+      "metin": "İndirimli fiyattan komisyon, kargo ve KDV'yi düşün. Elinizde **ne kalıyor?**"
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Komisyon *oranı*",
+      "metin": "Komisyon satış fiyatı üzerinden hesaplanır. Kategorinizin **güncel** oranını panelden kontrol edin."
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Kargo *payı*",
+      "metin": "Fiyat düşer ama kargo düşmez. Ucuz üründe kargonun **payı** büyür.",
+      "liste": [
+        "Sabit gider",
+        "Fiyatla düşmez"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Kaç adet *daha?*",
+      "metin": "İndirimden sonra aynı toplam kâr için **kaç ürün daha** satmanız gerektiğini hesaplayın."
+    },
+    {
+      "tip": "alinti",
+      "ust": "Ücretsiz araç",
+      "baslik": "Trendyol *Kâr* Hesaplama",
+      "metin": "Fiyatı ve maliyeti yazın; net kâr, marj, başabaş fiyatı ve indirim senaryosu **anında** çıksın. seovedijital.com › Araçlar"
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Satış Artırma",
+      "baslik": "Kampanyanızı *kârlı* kuralım",
+      "aciklama": "Fiyat, indirim ve reklam bütçenizi kâr hesabıyla birlikte planlıyoruz."
+    }
+  ],
+  "stil": "zumrut",
+  "medya": [
+    "medya/2026-11-07-indirim-kar-kontrolu/01.jpg",
+    "medya/2026-11-07-indirim-kar-kontrolu/02.jpg",
+    "medya/2026-11-07-indirim-kar-kontrolu/03.jpg",
+    "medya/2026-11-07-indirim-kar-kontrolu/04.jpg",
+    "medya/2026-11-07-indirim-kar-kontrolu/05.jpg",
+    "medya/2026-11-07-indirim-kar-kontrolu/06.jpg",
+    "medya/2026-11-07-indirim-kar-kontrolu/07.jpg"
+  ]
+}

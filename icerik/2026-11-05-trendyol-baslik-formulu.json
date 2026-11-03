@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-05-trendyol-baslik-formulu",
+  "tur": "carousel",
+  "durum": "planlandi",
+  "yayin_zamani": "2026-11-05T12:30:00+03:00",
+  "aciklama": "Trendyol'da başlık, ürününüzün arama kartvizitidir. 🏷️\n\nMüşteri ne yazıyorsa başlıkta o olmalı.\nDoğru sıra: marka, ürün tipi, ayırt edici özellik, varyant bilgisi.\n\n📌 Kaydedin, yeni ürün eklerken açın.\n\n🔗 Detaylar: seovedijital.com\n📞 0501 048 3732\n\n#trendyol #trendyolsatıcı #ürünseo #eticaret #pazaryeri #seovedijital",
+  "slaytlar": [
+    {
+      "tip": "kapak",
+      "ust": "Trendyol · Ürün SEO",
+      "baslik": "Başlığınız *satıyor* mu?",
+      "alt": "4 parçalı başlık formülü."
+    },
+    {
+      "tip": "madde",
+      "no": 1,
+      "baslik": "Önce *marka*",
+      "metin": "Başlık markayla başlasın. Marka araması yapan müşteri sizi **ilk bakışta** tanısın."
+    },
+    {
+      "tip": "madde",
+      "no": 2,
+      "baslik": "Sonra *ürün tipi*",
+      "metin": "Müşterinin aradığı kelime: \"kadın spor ayakkabı\", \"çelik termos\". **Süslü isim** değil.",
+      "liste": [
+        "Aranan kelime",
+        "Net ürün adı"
+      ]
+    },
+    {
+      "tip": "madde",
+      "no": 3,
+      "baslik": "Ayırt edici *özellik*",
+      "metin": "Malzeme, kullanım alanı veya fayda: \"su geçirmez\", \"500 ml\", \"pamuklu\"."
+    },
+    {
+      "tip": "madde",
+      "no": 4,
+      "baslik": "Varyant *bilgisi*",
+      "metin": "Renk ve beden gibi bilgiler **varyantta** dursun, başlığı kalabalık etmesin."
+    },
+    {
+      "tip": "alinti",
+      "ust": "Kontrol",
+      "baslik": "Başlığı *müşteri* gibi okuyun",
+      "metin": "Arama çubuğuna ne yazardınız? Başlığınız o kelimeleri **içermiyorsa** yeniden yazın."
+    },
+    {
+      "tip": "cta",
+      "ust": "Trendyol Ürün SEO",
+      "baslik": "Ürün başlıklarınızı *birlikte* düzenleyelim",
+      "aciklama": "Başlık, açıklama ve özellik alanlarını aranan kelimelere göre yeniden kuruyoruz."
+    }
+  ],
+  "stil": "kor",
+  "medya": [
+    "medya/2026-11-05-trendyol-baslik-formulu/01.jpg",
+    "medya/2026-11-05-trendyol-baslik-formulu/02.jpg",
+    "medya/2026-11-05-trendyol-baslik-formulu/03.jpg",
+    "medya/2026-11-05-trendyol-baslik-formulu/04.jpg",
+    "medya/2026-11-05-trendyol-baslik-formulu/05.jpg",
+    "medya/2026-11-05-trendyol-baslik-formulu/06.jpg",
+    "medya/2026-11-05-trendyol-baslik-formulu/07.jpg"
+  ]
+}
